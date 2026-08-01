@@ -1,44 +1,45 @@
 "use client";
 
 import { useRef, useState } from "react";
+import voaLesson from "@/public/lessons/voa-listening-001/transcript.json";
 
-type Duration = "10分钟" | "20分钟" | "30分钟";
-type Category = "演讲" | "访谈" | "美剧" | "新闻";
+type Duration = `${number}分钟` | `约${number}分钟`;
 
 type Material = {
-  id: number;
+  id: string;
   title: string;
-  category: Category;
   duration: Duration;
   description: string;
 };
 
 const materials: Material[] = [
   {
-    id: 1,
+    id: voaLesson.id,
+    title: voaLesson.title,
+    duration: `约${Math.round(voaLesson.duration / 60)}分钟`,
+    description: voaLesson.summary,
+  },
+  {
+    id: "sample-001",
     title: "How to Build Better Habits",
-    category: "演讲",
     duration: "10分钟",
     description: "通过简单可行的方法，理解习惯如何形成并产生长期改变。",
   },
   {
-    id: 2,
+    id: "sample-002",
     title: "A Conversation About Creativity",
-    category: "访谈",
     duration: "20分钟",
     description: "一场关于创造力、失败和持续学习的深入对话。",
   },
   {
-    id: 3,
+    id: "sample-003",
     title: "The Future of Clean Energy",
-    category: "新闻",
     duration: "10分钟",
     description: "了解清洁能源技术的发展，以及它将如何影响未来生活。",
   },
   {
-    id: 4,
+    id: "sample-004",
     title: "A Day at the Office",
-    category: "美剧",
     duration: "30分钟",
     description: "通过自然的办公室对话，学习工作场景中的日常英语表达。",
   },
@@ -120,8 +121,6 @@ function MaterialCard({
   return (
     <article className="material-card">
       <div className="material-meta">
-        <span>{material.category}</span>
-        <span aria-hidden="true">·</span>
         <span>{material.duration}</span>
       </div>
       <h3>{material.title}</h3>
@@ -164,7 +163,6 @@ function PreparationView({
             <h2>{material.title}</h2>
             <p className="chosen-description">{material.description}</p>
             <div className="chosen-tags">
-              <span>{material.category}</span>
               <span>{material.duration}</span>
             </div>
           </div>
@@ -184,7 +182,7 @@ function PreparationView({
 
 export default function Home() {
   const materialsRef = useRef<HTMLElement>(null);
-  const [duration, setDuration] = useState<Duration>("10分钟");
+  const [duration, setDuration] = useState<Duration>("约7分钟");
   const [selectedMaterial, setSelectedMaterial] = useState<Material | null>(null);
   const filteredMaterials = materials.filter(
     (material) => material.duration === duration,
@@ -250,7 +248,7 @@ export default function Home() {
               <aside className="filter-panel" aria-label="材料筛选">
                 <FilterGroup
                   label="音频时长"
-                  options={["10分钟", "20分钟", "30分钟"] as const}
+                  options={["约7分钟", "10分钟", "20分钟", "30分钟"] as const}
                   selected={duration}
                   onSelect={setDuration}
                 />
