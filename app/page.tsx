@@ -8,10 +8,17 @@ import {
   useState,
 } from "react";
 import type { MouseEvent as ReactMouseEvent } from "react";
-import lessonDictionaryData from "@/public/lessons/voa-listening-001/dictionary.json";
-import voaLesson from "@/public/lessons/voa-listening-001/transcript.json";
+import { AuthStatus } from "@/components/auth/auth-status";
+import { useAuth } from "@/components/auth/auth-provider";
+import {
+  deleteVocabularyEntry,
+  syncVocabularyEntry,
+} from "@/lib/cloudbase/vocabulary";
+import { syncLearningRecord } from "@/lib/cloudbase/learning-records";
+import { scheduleDictationDraftSync } from "@/lib/cloudbase/dictation-drafts";
+import lessonListData from "@/public/lessons/lessons.json";
 
-type Duration = "10分钟内" | "10-20分钟" | "20-30分钟";
+type Duration = "10分钟内" | "10-20分钟" | "20-30分钟" | "30分钟以上";
 
 type Segment = {
   id: number;
@@ -28,6 +35,32 @@ type Material = {
   audio?: string;
   segments?: Segment[];
   translation?: string;
+};
+
+type LessonListEntry = {
+  id: string;
+  title: string;
+  durationCategory: Duration;
+  summary: string;
+  audio: string;
+  transcript: string;
+};
+
+type LessonTranscript = {
+  id: string;
+  title: string;
+  durationSeconds: number;
+  durationCategory: Duration;
+  summary: string;
+  audio: string;
+  translation: string;
+  sentences: Array<{
+    id: number;
+    start: number;
+    end: number;
+    english: string;
+    chinese: string;
+  }>;
 };
 
 type VocabularyEntry = {
@@ -69,12 +102,33 @@ type StoredLearningRecord = {
   proficiency?: unknown;
 };
 
-const lessonWithTranslation = voaLesson as typeof voaLesson & {
-  translation?: string;
-};
-const lessonDictionary = lessonDictionaryData as Record<string, string>;
 const vocabularyStorageKey = "shangmethod:vocabulary";
 const learningRecordsStorageKey = "shangmethod:learning-records";
+let dictionaryPromise: Promise<Record<string, string>> | null = null;
+
+function loadDictionary() {
+  if (!dictionaryPromise) {
+    dictionaryPromise = fetch("/dictionary.json").then(async (response) => {
+      if (!response.ok) {
+        throw new Error("Unable to load dictionary");
+      }
+
+      const dictionary = await response.json() as unknown;
+      if (!dictionary || typeof dictionary !== "object") {
+        throw new Error("Invalid dictionary data");
+      }
+
+      return Object.fromEntries(
+        Object.entries(dictionary).filter(
+          (entry): entry is [string, string] =>
+            typeof entry[1] === "string",
+        ),
+      );
+    });
+  }
+
+  return dictionaryPromise;
+}
 
 function readVocabulary(): VocabularyEntry[] {
   try {
@@ -242,8 +296,10 @@ function saveLearningRecord(
       learningRecordsStorageKey,
       JSON.stringify(nextRecords),
     );
+    return nextRecord;
   } catch {
     // Learning remains available if browser storage is unavailable.
+    return null;
   }
 }
 
@@ -268,46 +324,47 @@ function speakWord(word: string) {
   window.speechSynthesis.speak(utterance);
 }
 
-const materials: Material[] = [
-  {
-    id: voaLesson.id,
-    title: voaLesson.title,
-    duration: "10分钟内",
-    description: voaLesson.summary,
-    audio: voaLesson.audio,
-    segments: voaLesson.sentences.map((sentence) => ({
+const lessonList = lessonListData as LessonListEntry[];
+const materials: Material[] = lessonList.map((lesson) => ({
+  id: lesson.id,
+  title: lesson.title,
+  duration: lesson.durationCategory,
+  description: lesson.summary,
+  audio: lesson.audio,
+}));
+const loadedMaterials = new Map<string, Material>();
+
+async function loadMaterial(materialId: string) {
+  const cachedMaterial = loadedMaterials.get(materialId);
+  if (cachedMaterial) return cachedMaterial;
+
+  const lesson = lessonList.find((item) => item.id === materialId);
+  if (!lesson) return null;
+
+  const response = await fetch(lesson.transcript);
+  if (!response.ok) {
+    throw new Error(`Unable to load transcript for ${materialId}`);
+  }
+
+  const transcript = await response.json() as LessonTranscript;
+  const material: Material = {
+    id: transcript.id,
+    title: transcript.title,
+    duration: transcript.durationCategory,
+    description: transcript.summary,
+    audio: transcript.audio,
+    segments: transcript.sentences.map((sentence) => ({
       id: sentence.id,
       start: sentence.start,
       end: sentence.end,
       text: sentence.english,
     })),
-    translation: lessonWithTranslation.translation,
-  },
-  {
-    id: "sample-001",
-    title: "How to Build Better Habits",
-    duration: "10-20分钟",
-    description: "通过简单可行的方法，理解习惯如何形成并产生长期改变。",
-  },
-  {
-    id: "sample-002",
-    title: "A Conversation About Creativity",
-    duration: "20-30分钟",
-    description: "一场关于创造力、失败和持续学习的深入对话。",
-  },
-  {
-    id: "sample-003",
-    title: "The Future of Clean Energy",
-    duration: "10-20分钟",
-    description: "了解清洁能源技术的发展，以及它将如何影响未来生活。",
-  },
-  {
-    id: "sample-004",
-    title: "A Day at the Office",
-    duration: "20-30分钟",
-    description: "通过自然的办公室对话，学习工作场景中的日常英语表达。",
-  },
-];
+    translation: transcript.translation,
+  };
+
+  loadedMaterials.set(materialId, material);
+  return material;
+}
 
 const steps = ["选择材料", "反复听写", "对照精学", "熟练背诵"];
 const playbackRates = [0.75, 1, 1.25, 1.5] as const;
@@ -366,6 +423,7 @@ function Header({
           >
             学习记录
           </button>
+          <AuthStatus />
         </nav>
       </div>
     </header>
@@ -652,6 +710,7 @@ function DictationWorkspace({
   audio?: string;
   onCompare: () => void;
 }) {
+  const { user } = useAuth();
   const storageKey = `shangmethod:dictation:${lessonId}`;
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const [draft, setDraft] = useState("");
@@ -669,6 +728,9 @@ function DictationWorkspace({
 
     try {
       window.localStorage.setItem(storageKey, value);
+      if (user) {
+        scheduleDictationDraftSync(String(user.id), lessonId, value);
+      }
     } catch {
       // The current draft remains usable even when browser storage is unavailable.
     }
@@ -947,6 +1009,7 @@ function ComparisonView({
   onBack: () => void;
   onComplete: () => void;
 }) {
+  const { user } = useAuth();
   const playerRef = useRef<AudioPlayerHandle>(null);
   const [dictation, setDictation] = useState("");
   const [activeSegmentId, setActiveSegmentId] = useState<number | null>(null);
@@ -1019,6 +1082,9 @@ function ComparisonView({
         `shangmethod:dictation:${material.id}`,
         value,
       );
+      if (user) {
+        scheduleDictationDraftSync(String(user.id), material.id, value);
+      }
     } catch {
       // Editing remains available when browser storage is unavailable.
     }
@@ -1036,7 +1102,7 @@ function ComparisonView({
     void playerRef.current?.playSegment(segment.start, segment.end);
   };
 
-  const openLookup = (
+  const openLookup = async (
     event: ReactMouseEvent<HTMLButtonElement>,
     word: string,
     key: string,
@@ -1048,11 +1114,18 @@ function ComparisonView({
       .toLocaleLowerCase("en")
       .replace(/['’]/g, "");
     const tooltipWidth = 232;
+    let dictionary: Record<string, string> = {};
+
+    try {
+      dictionary = await loadDictionary();
+    } catch {
+      // Lookup remains available with the existing fallback message.
+    }
 
     setLookup({
       key,
       word: word.toLocaleLowerCase("en"),
-      definition: lessonDictionary[dictionaryKey] ?? "暂无中文释义",
+      definition: dictionary[dictionaryKey] ?? "暂无中文释义",
       sentence,
       top: rect.bottom + 10,
       left: Math.min(
@@ -1094,6 +1167,11 @@ function ComparisonView({
         vocabularyStorageKey,
         JSON.stringify(nextVocabulary),
       );
+      if (user) {
+        void syncVocabularyEntry(String(user.id), nextEntry).catch(() => {
+          // Local vocabulary remains the immediate source if cloud sync fails.
+        });
+      }
       setSavedVocabularyKeys((currentKeys) => {
         const nextKeys = new Set(currentKeys);
         nextKeys.add(savedKey);
@@ -1183,7 +1261,12 @@ function ComparisonView({
                               aria-label={`查看 ${token} 的中文释义`}
                               aria-expanded={lookup?.key === tokenKey}
                               onClick={(event) =>
-                                openLookup(event, token, tokenKey, segment.text)
+                                void openLookup(
+                                  event,
+                                  token,
+                                  tokenKey,
+                                  segment.text,
+                                )
                               }
                               key={tokenKey}
                             >
@@ -1688,6 +1771,7 @@ function ReviewCenter({
   initialVocabulary: VocabularyEntry[];
   learnedCourses: Array<{ lessonId: string; lessonTitle: string }>;
 }) {
+  const { user } = useAuth();
   const [vocabulary, setVocabulary] = useState(initialVocabulary);
   const [selectedLessonId, setSelectedLessonId] = useState("all");
   const courseOptions = new Map(
@@ -1722,6 +1806,12 @@ function ReviewCenter({
       );
     } catch {
       // The current view still updates if browser storage is unavailable.
+    }
+
+    if (user) {
+      void deleteVocabularyEntry(String(user.id), entryToRemove).catch(() => {
+        // Local deletion remains effective if cloud sync fails.
+      });
     }
   };
 
@@ -2003,6 +2093,7 @@ function LearningRecordDetail({
 }
 
 export default function Home() {
+  const { user } = useAuth();
   const materialsRef = useRef<HTMLElement>(null);
   const [duration, setDuration] = useState<Duration>("10分钟内");
   const [selectedMaterial, setSelectedMaterial] = useState<Material | null>(null);
@@ -2012,9 +2103,24 @@ export default function Home() {
   const [isHistoryOpen, setIsHistoryOpen] = useState(false);
   const [learningRecords, setLearningRecords] = useState<LearningRecord[]>([]);
   const [openRecord, setOpenRecord] = useState<LearningRecord | null>(null);
+  const [openRecordMaterial, setOpenRecordMaterial] = useState<Material | null>(null);
   const filteredMaterials = materials.filter(
     (material) => material.duration === duration,
   );
+
+  const saveRecord = (
+    material: Material,
+    updates: Partial<
+      Pick<LearningRecord, "status" | "recitationCompleted" | "proficiency">
+    > = {},
+  ) => {
+    const record = saveLearningRecord(material, updates);
+    if (user && record) {
+      void syncLearningRecord(String(user.id), record).catch(() => {
+        // Local learning records remain authoritative if cloud sync fails.
+      });
+    }
+  };
 
   const scrollToMaterials = () => {
     materialsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -2024,6 +2130,7 @@ export default function Home() {
     setIsReviewOpen(false);
     setIsHistoryOpen(false);
     setOpenRecord(null);
+    setOpenRecordMaterial(null);
     setSelectedMaterial(null);
     setLearningStep(2);
   };
@@ -2033,6 +2140,7 @@ export default function Home() {
     setSelectedMaterial(null);
     setIsHistoryOpen(false);
     setOpenRecord(null);
+    setOpenRecordMaterial(null);
     setIsReviewOpen(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -2042,29 +2150,36 @@ export default function Home() {
     setSelectedMaterial(null);
     setIsReviewOpen(false);
     setOpenRecord(null);
+    setOpenRecordMaterial(null);
     setIsHistoryOpen(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const chooseMaterial = (material: Material) => {
-    saveLearningRecord(material);
+  const chooseMaterial = async (material: Material) => {
+    const loadedMaterial = await loadMaterial(material.id);
+    if (!loadedMaterial) return;
+    saveRecord(loadedMaterial);
     setIsReviewOpen(false);
     setIsHistoryOpen(false);
     setOpenRecord(null);
-    setSelectedMaterial(material);
+    setOpenRecordMaterial(null);
+    setSelectedMaterial(loadedMaterial);
     setLearningStep(2);
   };
 
-  const openLearningRecord = (record: LearningRecord) => {
+  const openLearningRecord = async (record: LearningRecord) => {
+    const material = await loadMaterial(record.lessonId);
+    setOpenRecordMaterial(material);
     setOpenRecord(record);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const reopenRecitation = (record: LearningRecord) => {
-    const material = materials.find((item) => item.id === record.lessonId);
+  const reopenRecitation = async (record: LearningRecord) => {
+    const material = await loadMaterial(record.lessonId);
     if (!material) return;
-    saveLearningRecord(material);
+    saveRecord(material);
     setOpenRecord(null);
+    setOpenRecordMaterial(null);
     setIsHistoryOpen(false);
     setSelectedMaterial(material);
     setLearningStep(4);
@@ -2095,7 +2210,7 @@ export default function Home() {
             material={selectedMaterial}
             onBack={() => setLearningStep(3)}
             onRecordingComplete={(proficiency) =>
-              saveLearningRecord(selectedMaterial, {
+              saveRecord(selectedMaterial, {
                 status: "completed",
                 recitationCompleted: true,
                 proficiency,
@@ -2129,9 +2244,6 @@ export default function Home() {
   }
 
   if (isHistoryOpen) {
-    const detailMaterial = openRecord
-      ? materials.find((material) => material.id === openRecord.lessonId)
-      : undefined;
     let savedDictation = "";
     if (openRecord) {
       try {
@@ -2155,7 +2267,7 @@ export default function Home() {
         {openRecord ? (
           <LearningRecordDetail
             record={openRecord}
-            material={detailMaterial}
+            material={openRecordMaterial ?? undefined}
             vocabulary={readVocabulary().filter(
               (entry) => entry.lessonId === openRecord.lessonId,
             )}
@@ -2226,7 +2338,7 @@ export default function Home() {
               <aside className="filter-panel" aria-label="材料筛选">
                 <FilterGroup
                   label="音频时长"
-                  options={["10分钟内", "10-20分钟", "20-30分钟"] as const}
+                  options={["10分钟内", "10-20分钟", "20-30分钟", "30分钟以上"] as const}
                   selected={duration}
                   onSelect={setDuration}
                 />
