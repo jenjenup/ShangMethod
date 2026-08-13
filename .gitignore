@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.venv
 /.pnp
 .pnp.*
 .yarn/*
@@ -12,6 +13,10 @@
 
 # testing
 /coverage
+
+# python
+**/__pycache__/
+*.py[cod]
 
 # next.js
 /.next/
@@ -29,9 +34,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+/scripts/course-import/reports/
+/scripts/course-import/staging/
+ecdict*.csv
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
