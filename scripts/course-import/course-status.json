@@ -1,0 +1,555 @@
+{
+  "voa-listening-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "pending",
+    "transcriptVersion": 1,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-decluttering-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-keep-goals-secret-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-muscle-growth-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-taylor-swift-commencement-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-where-in-20-years-001": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-286b12d5": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-35440156": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-4-aa9d96ae": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8c40ebd8": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8e885557": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-9dcaf582": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-3bd6ec46": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-4fe528af": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-22f1b44e": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-3aa17e38": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-69600578": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-20-4f771e7c": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-a33229d9": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-1ad81292": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-b947b4f2": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-5e6fcd26": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-10-c90b103d": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-362fdc4f": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-9bbe22fa": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-53691031": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-d5a56757": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8d7f938a": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-897844f5": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-e3bdcbf0": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-6ea3ded3": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-318d1958": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-36127c0b": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-bbde8715": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-a0cbab93": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-314b2a63": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-e64f2238": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-29304a2a": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-46856695": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-4a43bb18": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-59004669": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-b1f0e6d3": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-d62fd11a": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8f64f636": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-9c69bbfc": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-abc3297d": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-6ce06ac0": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-519872d4": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-65b0aa73": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-39b9101f": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-550b72d1": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-250fa4b7": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-2724a742": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-5a51f56e": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-7a8108d5": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-de8b99bd": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-91c2775b": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-749404bb": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-cd8cd6f8": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-171a87dc": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-f7cce5bd": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8b9068a5": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-5daff296": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-fe2cea3f": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8da67f58": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-ba0caa6c": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-8a68aa74": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-2fc0012b": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-emo-10aeffa9": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-99dcf75b": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-896520f9": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-67ffb691": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-300db05b": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-1c4f34eb": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-e265a276": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-e8bb9b6d": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-ea884c44": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-course-04e9fa92": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  },
+  "ted-taylor-swift-93bc30f0": {
+    "importStatus": "completed",
+    "alignmentStatus": "passed",
+    "transcriptVersion": 2,
+    "reviewStatus": "approved",
+    "published": true
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ted-course-286b12d5",
+    "title": "记得说出感谢",
+    "pdfStem": "记得说出感谢",
+    "audioStem": "记得说出感谢",
+    "selectionProfile": "short, 4 pages, exact filename match"
+  },
+  {
+    "id": "ted-course-35440156",
+    "title": "如何维持一段长久的友情",
+    "pdfStem": "如何维持一段长久的友情",
+    "audioStem": "如何让维持一段长久的友情",
+    "selectionProfile": "short, 4 pages, high-confidence fuzzy filename match"
+  },
+  {
+    "id": "ted-4-aa9d96ae",
+    "title": "关于生活、工作和平衡的4个教训",
+    "pdfStem": "关于生活、工作和平衡的4个教训",
+    "audioStem": "关于生活，工作和平衡的四个教训",
+    "selectionProfile": "short, 7 pages, numeric and punctuation title"
+  },
+  {
+    "id": "ted-course-8c40ebd8",
+    "title": "为什么屏幕剥脱了我们的快乐",
+    "pdfStem": "为什么屏幕剥脱了我们的快乐",
+    "audioStem": "为什么屏幕剥夺了我们的快乐",
+    "selectionProfile": "short, 9 pages, high-confidence fuzzy filename match"
+  },
+  {
+    "id": "ted-course-8e885557",
+    "title": "如何摆脱“无效努力”",
+    "pdfStem": "如何摆脱“无效努力”",
+    "audioStem": "如何摆脱“无效努力”",
+    "selectionProfile": "medium, 9 pages, quoted title"
+  },
+  {
+    "id": "ted-course-9dcaf582",
+    "title": "停止与别人比较",
+    "pdfStem": "停止与别人比较",
+    "audioStem": "停止与他人比较",
+    "selectionProfile": "medium, 12 pages, high-confidence fuzzy filename match"
+  },
+  {
+    "id": "ted-course-3bd6ec46",
+    "title": "我不想要孩子 别再告诉我我会改变",
+    "pdfStem": "我不想要孩子 别再告诉我我会改变",
+    "audioStem": "我不想要孩子，别再告诉我我会改变主意",
+    "selectionProfile": "medium, 9 pages, long title with spacing variation"
+  },
+  {
+    "id": "ted-course-4fe528af",
+    "title": "真正厉害的人都戒掉了玻璃心",
+    "pdfStem": "真正厉害的人都戒掉了玻璃心",
+    "audioStem": "真正厉害的人都戒掉了玻璃心",
+    "selectionProfile": "medium, 13 pages, exact filename match"
+  },
+  {
+    "id": "ted-course-a1ee9166",
+    "title": "睡眠是你的超能力",
+    "pdfStem": "睡眠是你的超能力",
+    "audioStem": "睡眠是你的超能力",
+    "selectionProfile": "medium, 14 pages, exact filename match"
+  },
+  {
+    "id": "ted-course-4006d400",
+    "title": "逆袭，从假装强大开始",
+    "pdfStem": "逆袭，从假装强大开始",
+    "audioStem": "逆袭，从假装强大开始",
+    "selectionProfile": "long, 18 pages, comma title"
+  }
+]
