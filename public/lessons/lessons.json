@@ -1,0 +1,634 @@
+[
+  {
+    "id": "voa-listening-001",
+    "title": "Improve Your Listening Skills By Transcribing",
+    "durationCategory": "10分钟内",
+    "summary": "通过听写训练提升英语听力能力，学习如何利用转录方法强化对英语声音和文本之间对应关系的理解。",
+    "audio": "/lessons/voa-listening-001/audio.mp3",
+    "transcript": "/lessons/voa-listening-001/transcript.json"
+  },
+  {
+    "id": "ted-decluttering-001",
+    "title": "学会断舍离",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《学会断舍离》的中英文精听材料。",
+    "audio": "/lessons/ted-decluttering-001/audio.mp3",
+    "transcript": "/lessons/ted-decluttering-001/transcript-v2.json"
+  },
+  {
+    "id": "ted-keep-goals-secret-001",
+    "title": "不要公开你的个人目标",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《不要公开你的个人目标》的中英文精听材料。",
+    "audio": "/lessons/ted-keep-goals-secret-001/audio.mp3",
+    "transcript": "/lessons/ted-keep-goals-secret-001/transcript-v2.json"
+  },
+  {
+    "id": "ted-muscle-growth-001",
+    "title": "肌肉增长的秘密",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《肌肉增长的秘密》的中英文精听材料。",
+    "audio": "/lessons/ted-muscle-growth-001/audio.mp3",
+    "transcript": "/lessons/ted-muscle-growth-001/transcript-v2.json"
+  },
+  {
+    "id": "ted-taylor-swift-commencement-001",
+    "title": "Taylor Swift纽约大学毕业典礼演讲",
+    "durationCategory": "20-30分钟",
+    "summary": "TED演讲《Taylor Swift纽约大学毕业典礼演讲》的中英文精听材料。",
+    "audio": "/lessons/ted-taylor-swift-commencement-001/audio.mp3",
+    "transcript": "/lessons/ted-taylor-swift-commencement-001/transcript-v2.json"
+  },
+  {
+    "id": "ted-where-in-20-years-001",
+    "title": "20年后，你将会在哪里？",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《20年后，你将会在哪里？》的中英文精听材料。",
+    "audio": "/lessons/ted-where-in-20-years-001/audio.mp3",
+    "transcript": "/lessons/ted-where-in-20-years-001/transcript-v2.json"
+  },
+  {
+    "id": "ted-4-aa9d96ae",
+    "title": "关于生活、工作和平衡的4个教训",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《关于生活、工作和平衡的4个教训》的中英文精听材料。",
+    "audio": "/lessons/ted-4-aa9d96ae/audio.mp3",
+    "transcript": "/lessons/ted-4-aa9d96ae/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-286b12d5",
+    "title": "记得说出感谢",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《记得说出感谢》的中英文精听材料。",
+    "audio": "/lessons/ted-course-286b12d5/audio.mp3",
+    "transcript": "/lessons/ted-course-286b12d5/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-35440156",
+    "title": "如何维持一段长久的友情",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《如何维持一段长久的友情》的中英文精听材料。",
+    "audio": "/lessons/ted-course-35440156/audio.mp3",
+    "transcript": "/lessons/ted-course-35440156/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-3bd6ec46",
+    "title": "我不想要孩子 别再告诉我我会改变",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《我不想要孩子 别再告诉我我会改变》的中英文精听材料。",
+    "audio": "/lessons/ted-course-3bd6ec46/audio.mp3",
+    "transcript": "/lessons/ted-course-3bd6ec46/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-4fe528af",
+    "title": "真正厉害的人都戒掉了玻璃心",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《真正厉害的人都戒掉了玻璃心》的中英文精听材料。",
+    "audio": "/lessons/ted-course-4fe528af/audio.mp3",
+    "transcript": "/lessons/ted-course-4fe528af/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8c40ebd8",
+    "title": "为什么屏幕剥脱了我们的快乐",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《为什么屏幕剥脱了我们的快乐》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8c40ebd8/audio.mp3",
+    "transcript": "/lessons/ted-course-8c40ebd8/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8e885557",
+    "title": "如何摆脱“无效努力”",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《如何摆脱“无效努力”》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8e885557/audio.mp3",
+    "transcript": "/lessons/ted-course-8e885557/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-9dcaf582",
+    "title": "停止与别人比较",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《停止与别人比较》的中英文精听材料。",
+    "audio": "/lessons/ted-course-9dcaf582/audio.mp3",
+    "transcript": "/lessons/ted-course-9dcaf582/transcript-v2.json"
+  },
+  {
+    "id": "ted-10-c90b103d",
+    "title": "一切只需10分钟的专注",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《一切只需10分钟的专注》的中英文精听材料。",
+    "audio": "/lessons/ted-10-c90b103d/audio.mp3",
+    "transcript": "/lessons/ted-10-c90b103d/transcript-v2.json"
+  },
+  {
+    "id": "ted-20-4f771e7c",
+    "title": "20年后，你将会在哪里",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《20年后，你将会在哪里》的中英文精听材料。",
+    "audio": "/lessons/ted-20-4f771e7c/audio.mp3",
+    "transcript": "/lessons/ted-20-4f771e7c/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-1ad81292",
+    "title": "拥抱焦虑",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《拥抱焦虑》的中英文精听材料。",
+    "audio": "/lessons/ted-course-1ad81292/audio.mp3",
+    "transcript": "/lessons/ted-course-1ad81292/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-22f1b44e",
+    "title": "不要公开你的个人目标",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《不要公开你的个人目标》的中英文精听材料。",
+    "audio": "/lessons/ted-course-22f1b44e/audio.mp3",
+    "transcript": "/lessons/ted-course-22f1b44e/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-362fdc4f",
+    "title": "我把自己活成了艺术品",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《我把自己活成了艺术品》的中英文精听材料。",
+    "audio": "/lessons/ted-course-362fdc4f/audio.mp3",
+    "transcript": "/lessons/ted-course-362fdc4f/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-3aa17e38",
+    "title": "别让任何人打乱你的生活节奏",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《别让任何人打乱你的生活节奏》的中英文精听材料。",
+    "audio": "/lessons/ted-course-3aa17e38/audio.mp3",
+    "transcript": "/lessons/ted-course-3aa17e38/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-53691031",
+    "title": "学一门外语的秘密",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《学一门外语的秘密》的中英文精听材料。",
+    "audio": "/lessons/ted-course-53691031/audio.mp3",
+    "transcript": "/lessons/ted-course-53691031/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-5e6fcd26",
+    "title": "简化生活，提升幸福感",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《简化生活，提升幸福感》的中英文精听材料。",
+    "audio": "/lessons/ted-course-5e6fcd26/audio.mp3",
+    "transcript": "/lessons/ted-course-5e6fcd26/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-69600578",
+    "title": "改变自己只需要两年",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《改变自己只需要两年》的中英文精听材料。",
+    "audio": "/lessons/ted-course-69600578/audio.mp3",
+    "transcript": "/lessons/ted-course-69600578/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-6ea3ded3",
+    "title": "请停止糟蹋自己",
+    "durationCategory": "20-30分钟",
+    "summary": "TED演讲《请停止糟蹋自己》的中英文精听材料。",
+    "audio": "/lessons/ted-course-6ea3ded3/audio.mp3",
+    "transcript": "/lessons/ted-course-6ea3ded3/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-897844f5",
+    "title": "女孩要勇敢而不必完美",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《女孩要勇敢而不必完美》的中英文精听材料。",
+    "audio": "/lessons/ted-course-897844f5/audio.mp3",
+    "transcript": "/lessons/ted-course-897844f5/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8d7f938a",
+    "title": "我受够了对肥胖的恐惧",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《我受够了对肥胖的恐惧》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8d7f938a/audio.mp3",
+    "transcript": "/lessons/ted-course-8d7f938a/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-9bbe22fa",
+    "title": "怎样走出负面情绪",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《怎样走出负面情绪》的中英文精听材料。",
+    "audio": "/lessons/ted-course-9bbe22fa/audio.mp3",
+    "transcript": "/lessons/ted-course-9bbe22fa/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-a33229d9",
+    "title": "高海拔如何影响你的身体",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《高海拔如何影响你的身体》的中英文精听材料。",
+    "audio": "/lessons/ted-course-a33229d9/audio.mp3",
+    "transcript": "/lessons/ted-course-a33229d9/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-b947b4f2",
+    "title": "想要真正的成功 自己向上的时候要拉别人一把",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《想要真正的成功 自己向上的时候要拉别人一把》的中英文精听材料。",
+    "audio": "/lessons/ted-course-b947b4f2/audio.mp3",
+    "transcript": "/lessons/ted-course-b947b4f2/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-d5a56757",
+    "title": "如何在纷扰的网络世界中 回归平静",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《如何在纷扰的网络世界中 回归平静》的中英文精听材料。",
+    "audio": "/lessons/ted-course-d5a56757/audio.mp3",
+    "transcript": "/lessons/ted-course-d5a56757/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-e3bdcbf0",
+    "title": "贫穷的本质",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《贫穷的本质》的中英文精听材料。",
+    "audio": "/lessons/ted-course-e3bdcbf0/audio.mp3",
+    "transcript": "/lessons/ted-course-e3bdcbf0/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-04e9fa92",
+    "title": "那些限制你的执念 是你不幸之源",
+    "durationCategory": "20-30分钟",
+    "summary": "TED演讲《那些限制你的执念 是你不幸之源》的中英文精听材料。",
+    "audio": "/lessons/ted-course-04e9fa92/audio.mp3",
+    "transcript": "/lessons/ted-course-04e9fa92/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-171a87dc",
+    "title": "运气对成功有多重要",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《运气对成功有多重要》的中英文精听材料。",
+    "audio": "/lessons/ted-course-171a87dc/audio.mp3",
+    "transcript": "/lessons/ted-course-171a87dc/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-1c4f34eb",
+    "title": "如何解决焦虑",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《如何解决焦虑》的中英文精听材料。",
+    "audio": "/lessons/ted-course-1c4f34eb/audio.mp3",
+    "transcript": "/lessons/ted-course-1c4f34eb/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-250fa4b7",
+    "title": "微笑是你的超能力",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《微笑是你的超能力》的中英文精听材料。",
+    "audio": "/lessons/ted-course-250fa4b7/audio.mp3",
+    "transcript": "/lessons/ted-course-250fa4b7/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-2724a742",
+    "title": "为什么你应该知道你同事的工资",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《为什么你应该知道你同事的工资》的中英文精听材料。",
+    "audio": "/lessons/ted-course-2724a742/audio.mp3",
+    "transcript": "/lessons/ted-course-2724a742/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-29304a2a",
+    "title": "演奏乐器对大脑的好处",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《演奏乐器对大脑的好处》的中英文精听材料。",
+    "audio": "/lessons/ted-course-29304a2a/audio.mp3",
+    "transcript": "/lessons/ted-course-29304a2a/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-2fc0012b",
+    "title": "我们如何毫无恐惧地一起直面未来",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《我们如何毫无恐惧地一起直面未来》的中英文精听材料。",
+    "audio": "/lessons/ted-course-2fc0012b/audio.mp3",
+    "transcript": "/lessons/ted-course-2fc0012b/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-300db05b",
+    "title": "你该认清你的恐惧而不是目标",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《你该认清你的恐惧而不是目标》的中英文精听材料。",
+    "audio": "/lessons/ted-course-300db05b/audio.mp3",
+    "transcript": "/lessons/ted-course-300db05b/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-314b2a63",
+    "title": "求求你别再熬夜了",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《求求你别再熬夜了》的中英文精听材料。",
+    "audio": "/lessons/ted-course-314b2a63/audio.mp3",
+    "transcript": "/lessons/ted-course-314b2a63/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-318d1958",
+    "title": "从失恋中走出来需要多久",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《从失恋中走出来需要多久》的中英文精听材料。",
+    "audio": "/lessons/ted-course-318d1958/audio.mp3",
+    "transcript": "/lessons/ted-course-318d1958/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-36127c0b",
+    "title": "如何在压力下保持冷静",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《如何在压力下保持冷静》的中英文精听材料。",
+    "audio": "/lessons/ted-course-36127c0b/audio.mp3",
+    "transcript": "/lessons/ted-course-36127c0b/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-39b9101f",
+    "title": "深度睡眠对大脑的好处",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《深度睡眠对大脑的好处》的中英文精听材料。",
+    "audio": "/lessons/ted-course-39b9101f/audio.mp3",
+    "transcript": "/lessons/ted-course-39b9101f/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-46856695",
+    "title": "久坐的危害",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《久坐的危害》的中英文精听材料。",
+    "audio": "/lessons/ted-course-46856695/audio.mp3",
+    "transcript": "/lessons/ted-course-46856695/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-4a43bb18",
+    "title": "糖如何影响大脑",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《糖如何影响大脑》的中英文精听材料。",
+    "audio": "/lessons/ted-course-4a43bb18/audio.mp3",
+    "transcript": "/lessons/ted-course-4a43bb18/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-519872d4",
+    "title": "成功的关键不是智商，而是毅力",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《成功的关键不是智商，而是毅力》的中英文精听材料。",
+    "audio": "/lessons/ted-course-519872d4/audio.mp3",
+    "transcript": "/lessons/ted-course-519872d4/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-550b72d1",
+    "title": "感到抑郁不要默默承受",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《感到抑郁不要默默承受》的中英文精听材料。",
+    "audio": "/lessons/ted-course-550b72d1/audio.mp3",
+    "transcript": "/lessons/ted-course-550b72d1/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-59004669",
+    "title": "为什么你应该读冯内古特",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《为什么你应该读冯内古特》的中英文精听材料。",
+    "audio": "/lessons/ted-course-59004669/audio.mp3",
+    "transcript": "/lessons/ted-course-59004669/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-5a51f56e",
+    "title": "如何从倦怠中恢复",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《如何从倦怠中恢复》的中英文精听材料。",
+    "audio": "/lessons/ted-course-5a51f56e/audio.mp3",
+    "transcript": "/lessons/ted-course-5a51f56e/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-5daff296",
+    "title": "要始终相信，越努力越幸运",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《要始终相信，越努力越幸运》的中英文精听材料。",
+    "audio": "/lessons/ted-course-5daff296/audio.mp3",
+    "transcript": "/lessons/ted-course-5daff296/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-65b0aa73",
+    "title": "能力比经历更重要",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《能力比经历更重要》的中英文精听材料。",
+    "audio": "/lessons/ted-course-65b0aa73/audio.mp3",
+    "transcript": "/lessons/ted-course-65b0aa73/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-67ffb691",
+    "title": "如何才能幸福",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《如何才能幸福》的中英文精听材料。",
+    "audio": "/lessons/ted-course-67ffb691/audio.mp3",
+    "transcript": "/lessons/ted-course-67ffb691/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-6ce06ac0",
+    "title": "帮你省钱的三个心理技巧",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《帮你省钱的三个心理技巧》的中英文精听材料。",
+    "audio": "/lessons/ted-course-6ce06ac0/audio.mp3",
+    "transcript": "/lessons/ted-course-6ce06ac0/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-749404bb",
+    "title": "一个最简单的方式戒掉坏习惯",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《一个最简单的方式戒掉坏习惯》的中英文精听材料。",
+    "audio": "/lessons/ted-course-749404bb/audio.mp3",
+    "transcript": "/lessons/ted-course-749404bb/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-7a8108d5",
+    "title": "每天一秒钟",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《每天一秒钟》的中英文精听材料。",
+    "audio": "/lessons/ted-course-7a8108d5/audio.mp3",
+    "transcript": "/lessons/ted-course-7a8108d5/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-896520f9",
+    "title": "学习即自由",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《学习即自由》的中英文精听材料。",
+    "audio": "/lessons/ted-course-896520f9/audio.mp3",
+    "transcript": "/lessons/ted-course-896520f9/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8a68aa74",
+    "title": "生活不仅仅是快乐",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《生活不仅仅是快乐》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8a68aa74/audio.mp3",
+    "transcript": "/lessons/ted-course-8a68aa74/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8b9068a5",
+    "title": "学会走出自己的舒适区",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《学会走出自己的舒适区》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8b9068a5/audio.mp3",
+    "transcript": "/lessons/ted-course-8b9068a5/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8da67f58",
+    "title": "如何掌控你的空闲时间",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《如何掌控你的空闲时间》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8da67f58/audio.mp3",
+    "transcript": "/lessons/ted-course-8da67f58/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-8f64f636",
+    "title": "我们为什么会做梦",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《我们为什么会做梦》的中英文精听材料。",
+    "audio": "/lessons/ted-course-8f64f636/audio.mp3",
+    "transcript": "/lessons/ted-course-8f64f636/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-91c2775b",
+    "title": "真正拉开你与周围人的差距 是知道自己贵在哪里",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《真正拉开你与周围人的差距 是知道自己贵在哪里》的中英文精听材料。",
+    "audio": "/lessons/ted-course-91c2775b/audio.mp3",
+    "transcript": "/lessons/ted-course-91c2775b/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-99dcf75b",
+    "title": "从肥皂剧里学到的人生道理",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《从肥皂剧里学到的人生道理》的中英文精听材料。",
+    "audio": "/lessons/ted-course-99dcf75b/audio.mp3",
+    "transcript": "/lessons/ted-course-99dcf75b/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-9c69bbfc",
+    "title": "如何无所畏惧地面对权威",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《如何无所畏惧地面对权威》的中英文精听材料。",
+    "audio": "/lessons/ted-course-9c69bbfc/audio.mp3",
+    "transcript": "/lessons/ted-course-9c69bbfc/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-a0cbab93",
+    "title": "为什么饮食失调很难治疗",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《为什么饮食失调很难治疗》的中英文精听材料。",
+    "audio": "/lessons/ted-course-a0cbab93/audio.mp3",
+    "transcript": "/lessons/ted-course-a0cbab93/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-abc3297d",
+    "title": "学会断舍离",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《学会断舍离》的中英文精听材料。",
+    "audio": "/lessons/ted-course-abc3297d/audio.mp3",
+    "transcript": "/lessons/ted-course-abc3297d/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-b1f0e6d3",
+    "title": "人们为什么总相信虚假信息",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《人们为什么总相信虚假信息》的中英文精听材料。",
+    "audio": "/lessons/ted-course-b1f0e6d3/audio.mp3",
+    "transcript": "/lessons/ted-course-b1f0e6d3/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-ba0caa6c",
+    "title": "饭圈女孩的爱",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《饭圈女孩的爱》的中英文精听材料。",
+    "audio": "/lessons/ted-course-ba0caa6c/audio.mp3",
+    "transcript": "/lessons/ted-course-ba0caa6c/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-bbde8715",
+    "title": "抑郁是世界上最温柔的病",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《抑郁是世界上最温柔的病》的中英文精听材料。",
+    "audio": "/lessons/ted-course-bbde8715/audio.mp3",
+    "transcript": "/lessons/ted-course-bbde8715/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-cd8cd6f8",
+    "title": "再艰难，也要跳出舒适圈",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《再艰难，也要跳出舒适圈》的中英文精听材料。",
+    "audio": "/lessons/ted-course-cd8cd6f8/audio.mp3",
+    "transcript": "/lessons/ted-course-cd8cd6f8/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-d62fd11a",
+    "title": "如何成为一个自律的人",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《如何成为一个自律的人》的中英文精听材料。",
+    "audio": "/lessons/ted-course-d62fd11a/audio.mp3",
+    "transcript": "/lessons/ted-course-d62fd11a/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-de8b99bd",
+    "title": "我们为什么要工作",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《我们为什么要工作》的中英文精听材料。",
+    "audio": "/lessons/ted-course-de8b99bd/audio.mp3",
+    "transcript": "/lessons/ted-course-de8b99bd/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-e265a276",
+    "title": "爱情应有的样子",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《爱情应有的样子》的中英文精听材料。",
+    "audio": "/lessons/ted-course-e265a276/audio.mp3",
+    "transcript": "/lessons/ted-course-e265a276/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-e64f2238",
+    "title": "睡眠与记忆的惊人联系",
+    "durationCategory": "10分钟内",
+    "summary": "TED演讲《睡眠与记忆的惊人联系》的中英文精听材料。",
+    "audio": "/lessons/ted-course-e64f2238/audio.mp3",
+    "transcript": "/lessons/ted-course-e64f2238/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-e8bb9b6d",
+    "title": "读书如何改变人生",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《读书如何改变人生》的中英文精听材料。",
+    "audio": "/lessons/ted-course-e8bb9b6d/audio.mp3",
+    "transcript": "/lessons/ted-course-e8bb9b6d/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-ea884c44",
+    "title": "心流，幸福的秘密",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《心流，幸福的秘密》的中英文精听材料。",
+    "audio": "/lessons/ted-course-ea884c44/audio.mp3",
+    "transcript": "/lessons/ted-course-ea884c44/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-f7cce5bd",
+    "title": "请相信，你可以进步",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《请相信，你可以进步》的中英文精听材料。",
+    "audio": "/lessons/ted-course-f7cce5bd/audio.mp3",
+    "transcript": "/lessons/ted-course-f7cce5bd/transcript-v2.json"
+  },
+  {
+    "id": "ted-course-fe2cea3f",
+    "title": "你可以冒一点风险来增加你的运气",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《你可以冒一点风险来增加你的运气》的中英文精听材料。",
+    "audio": "/lessons/ted-course-fe2cea3f/audio.mp3",
+    "transcript": "/lessons/ted-course-fe2cea3f/transcript-v2.json"
+  },
+  {
+    "id": "ted-emo-10aeffa9",
+    "title": "别再emo了，教你治愈心碎",
+    "durationCategory": "10-20分钟",
+    "summary": "TED演讲《别再emo了，教你治愈心碎》的中英文精听材料。",
+    "audio": "/lessons/ted-emo-10aeffa9/audio.mp3",
+    "transcript": "/lessons/ted-emo-10aeffa9/transcript-v2.json"
+  },
+  {
+    "id": "ted-taylor-swift-93bc30f0",
+    "title": "Taylor Swift纽约大学毕业典礼演讲",
+    "durationCategory": "20-30分钟",
+    "summary": "TED演讲《Taylor Swift纽约大学毕业典礼演讲》的中英文精听材料。",
+    "audio": "/lessons/ted-taylor-swift-93bc30f0/audio.mp3",
+    "transcript": "/lessons/ted-taylor-swift-93bc30f0/transcript-v2.json"
+  }
+]

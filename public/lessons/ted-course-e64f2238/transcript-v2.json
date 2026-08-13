@@ -1,0 +1,291 @@
+{
+  "id": "ted-course-e64f2238",
+  "title": "睡眠与记忆的惊人联系",
+  "durationSeconds": 282.984,
+  "durationCategory": "10分钟内",
+  "summary": "TED演讲《睡眠与记忆的惊人联系》的中英文精听材料。",
+  "audio": "/lessons/ted-course-e64f2238/audio.mp3",
+  "translation": "无论你是在考前临时抱佛脚, 还是在试图学习一件新的乐器, 甚至是打算提高一项新的运动技能, 睡眠都可能是帮助你记忆的秘密武\n\n实际上,研究已经告诉我们睡眠至少在三个方面对记忆很重要。首先,我们知道,在学习前需要睡眠, 以使大脑做好准备, 让它就像一块干海绵, 准备开始吸收新的信息。没有睡眠,大脑中的记忆回路就像是吸饱了水的海绵, 无法吸收新的信息, 也不能有效地铺设那些新的记忆痕迹。\n\n但重要的不仅仅是学习前的睡眠, 因为我们还知道, 在学习之后你同样需要睡眠, 来为那些新记忆按下保存键, 这样我们才不会遗\n\n事实上,睡眠可以确保大脑内的那些信息永久保存, 并将那些记忆固定在神经网络的结构之中。 [ 大多数人会忘记我们 95-99% 的梦。]我们已经开始发现睡眠究竟为何具有记忆巩固这一优势。\n\n第一个机制是一个“文件传输”的过程。在这里,我们会谈到大脑中的两个不同结构。第一个叫做“海马体”。它位于大脑的左右两侧。你可以把海马体大致想象为大脑中的信息收件箱。它非常善于接收并存储新的记忆文件。\n\n我们会谈到的第二个结构叫做“大脑皮层”。这一大块布满皱褶的组织覆盖在大脑的表面。在深度睡眠期间, 这个文件传输机制开始工作。你可以把海马体设想成一个 U 盘, [ 短期记忆 ] 你的大脑皮层就如同一块硬盘。 [ 长期记忆 ] 白天 ,我们到处活动, 收集了很多文件, 而在晚上的深度睡眠时, 由于存储空间有限 , 我们必须把文件从海马体传输到大脑的硬盘, 即大脑皮层中。\n\n这个正是深度睡眠所提供的机制之一。\n\n但是,我们逐渐意识到, 还有另外一个机制有助于把记忆凝固在大脑里。这个机制被称为“重播”。几年前, 科学家们研究老鼠在迷宫中探索时是如何进行学习的, 并记录了这些老鼠的记忆中心的神经活动。当老鼠在迷宫中四处跑动时, 不同的脑细胞会对迷宫的不同区域进行编码。如果给每个脑细胞都加上一个音调的话 , 当老鼠开始学习迷宫构造时, 你就能听到这些记忆的信号。它听上去有点\n\n我们能听到的正是学习的信号。不过科学家接下来又做了一件很聪明的事。当这些老鼠进入睡眠后, 他们继续听大脑里的动静。他们所听到的声音非常惊人。在睡眠时,这些老鼠开始重放同样的记忆信号。但是,它们现在重放的速度要比清醒时快上差不多 10 倍。所以,你现在听到的是 ......\n\n这个似乎是睡眠强化记忆的第二种方式。睡眠实际上是在重放那些记忆, 并把它们刻画在大脑的一个新回路里, 以此来加强那个记忆的表达。\n\n睡眠有利于记忆的最后一个方式是整合与关联。事实上,我们正在了解到睡眠远比我们想象的要智能得多。睡眠不仅强化单个记忆,它还可以很聪明地将新的记忆相互连接起来。因此 , 第二天醒来时, 你将拥有一个修订过的大脑联想网络。我们就能为之前令人费解的问题找出解决方案。\n\n这个大概就是为什么人们不会要你一直清醒着去解决问题 , 而是说 , 遇到问题睡一觉就会有答案 , 这正是科学所教给我们的道理。",
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 12.12,
+      "english": "Whether you're cramming for an exam or trying to learn a new musical instrument or even trying to perfect a new sport, sleep may actually be your secret memory weapon.",
+      "chinese": ""
+    },
+    {
+      "id": 2,
+      "start": 17.33,
+      "end": 23.05,
+      "english": "Studies have actually told us that sleep is critical for memory in at least three different ways.",
+      "chinese": ""
+    },
+    {
+      "id": 3,
+      "start": 23.19,
+      "end": 33.61,
+      "english": "First, we know that you need sleep before learning to actually get your brain ready, almost like a dry sponge, ready to initially soak up new information.",
+      "chinese": ""
+    },
+    {
+      "id": 4,
+      "start": 33.61,
+      "end": 43.11,
+      "english": "And without sleep, the memory circuits within the brain effectively become waterlogged, as it were, and we can't absorb new information.",
+      "chinese": ""
+    },
+    {
+      "id": 5,
+      "start": 43.29,
+      "end": 46.85,
+      "english": "We can't effectively lay down those new memory traces.",
+      "chinese": ""
+    },
+    {
+      "id": 6,
+      "start": 47.26,
+      "end": 59.27,
+      "english": "But it's not only important that you sleep before learning, because we also know that you need sleep after learning to essentially hit the save button on those new memories so that we don't forget.",
+      "chinese": ""
+    },
+    {
+      "id": 7,
+      "start": 59.27,
+      "end": 71.13,
+      "english": "In fact, sleep will actually future-proof that information within the brain, cementing those memories into the architecture of those neural networks.",
+      "chinese": ""
+    },
+    {
+      "id": 8,
+      "start": 71.21,
+      "end": 78.81,
+      "english": "And we've begun to discover exactly how sleep achieves this memory-consolidation benefit.",
+      "chinese": ""
+    },
+    {
+      "id": 9,
+      "start": 79.64,
+      "end": 84.32,
+      "english": "The first mechanism is a file-transfer process.",
+      "chinese": ""
+    },
+    {
+      "id": 10,
+      "start": 84.88,
+      "end": 88.5,
+      "english": "And here, we can speak about two different structures within the brain.",
+      "chinese": ""
+    },
+    {
+      "id": 11,
+      "start": 88.5,
+      "end": 95.44,
+      "english": "The first is called the hippocampus and the hippocampus sits on the left and the right side of your brain.",
+      "chinese": ""
+    },
+    {
+      "id": 12,
+      "start": 95.87,
+      "end": 101.51,
+      "english": "And you can think of the hippocampus almost like the informational inbox of your brain.",
+      "chinese": ""
+    },
+    {
+      "id": 13,
+      "start": 101.53,
+      "end": 105.59,
+      "english": "It's very good at receiving new memory files and holding onto them.",
+      "chinese": ""
+    },
+    {
+      "id": 14,
+      "start": 105.75,
+      "end": 109.47,
+      "english": "The second structure that we can speak about is called the cortex.",
+      "chinese": ""
+    },
+    {
+      "id": 15,
+      "start": 109.77,
+      "end": 113.57,
+      "english": "This wrinkled massive tissue that sits on top of your brain.",
+      "chinese": ""
+    },
+    {
+      "id": 16,
+      "start": 113.65,
+      "end": 118.43,
+      "english": "And during deep sleep, there is this file-transfer mechanism.",
+      "chinese": ""
+    },
+    {
+      "id": 17,
+      "start": 118.43,
+      "end": 124.28,
+      "english": "Think of the hippocampus like a USB stick and your cortex like the hard drive.",
+      "chinese": ""
+    },
+    {
+      "id": 18,
+      "start": 124.38,
+      "end": 139.88,
+      "english": "And during the day, we're going around and we're gathering lots of files, but then during deep sleep at night, because of that limited storage capacity, we have to transfer those files from the hippocampus over to the hard drive of the brain, the cortex.",
+      "chinese": ""
+    },
+    {
+      "id": 19,
+      "start": 140.08,
+      "end": 144.38,
+      "english": "And that's exactly one of the mechanisms that deep sleep seems to provide.",
+      "chinese": ""
+    },
+    {
+      "id": 20,
+      "start": 144.48,
+      "end": 151.36,
+      "english": "But there's another mechanism that we've become aware of that helps cement those memories into the brain.",
+      "chinese": ""
+    },
+    {
+      "id": 21,
+      "start": 151.64,
+      "end": 153.44,
+      "english": "And it's called replay.",
+      "chinese": ""
+    },
+    {
+      "id": 22,
+      "start": 154.05,
+      "end": 161.01,
+      "english": "Several years ago, scientists were looking at how rats learned as they would run around a maze.",
+      "chinese": ""
+    },
+    {
+      "id": 23,
+      "start": 161.31,
+      "end": 165.53,
+      "english": "And they were recording the activity in the memory centers of these rats.",
+      "chinese": ""
+    },
+    {
+      "id": 24,
+      "start": 165.79,
+      "end": 172.33,
+      "english": "And as the rat was running around the maze, different brain cells would code different parts of the maze.",
+      "chinese": ""
+    },
+    {
+      "id": 25,
+      "start": 172.61,
+      "end": 182.07,
+      "english": "And so if you added a tone to each one of the brain cells what you would hear as the rat was starting to learn the maze was the signature of that memory.",
+      "chinese": ""
+    },
+    {
+      "id": 26,
+      "start": 182.09,
+      "end": 183.85,
+      "english": "So it would sound a little bit like...",
+      "chinese": ""
+    },
+    {
+      "id": 27,
+      "start": 183.85,
+      "end": 191.2,
+      "english": "It was this signature of learning that we could hear.",
+      "chinese": ""
+    },
+    {
+      "id": 28,
+      "start": 191.71,
+      "end": 194.07,
+      "english": "But then they did something clever.",
+      "chinese": ""
+    },
+    {
+      "id": 29,
+      "start": 194.45,
+      "end": 201.41,
+      "english": "They kept listening to the brain as these rats fell asleep, and what they heard was remarkable.",
+      "chinese": ""
+    },
+    {
+      "id": 30,
+      "start": 201.67,
+      "end": 208.07,
+      "english": "The rat, as it was sleeping, started to replay that same memory signature.",
+      "chinese": ""
+    },
+    {
+      "id": 31,
+      "start": 208.07,
+      "end": 214.87,
+      "english": "But now it started to replay it almost 10 times faster than it was doing when it was awake.",
+      "chinese": ""
+    },
+    {
+      "id": 32,
+      "start": 215.29,
+      "end": 217.35,
+      "english": "So now instead you would start to hear...",
+      "chinese": ""
+    },
+    {
+      "id": 33,
+      "start": 217.37,
+      "end": 225.41,
+      "english": "That seems to be the second way in which sleep can actually strengthen these memories.",
+      "chinese": ""
+    },
+    {
+      "id": 34,
+      "start": 225.69,
+      "end": 235.01,
+      "english": "Sleep is actually replaying and scoring those memories into a new circuit within the brain, strengthening that memory representation.",
+      "chinese": ""
+    },
+    {
+      "id": 35,
+      "start": 235.55,
+      "end": 241.25,
+      "english": "The final way in which sleep is beneficial for memory is integration and association.",
+      "chinese": ""
+    },
+    {
+      "id": 36,
+      "start": 241.81,
+      "end": 246.71,
+      "english": "In fact, we're now learning that sleep is much more intelligent than we ever imagined.",
+      "chinese": ""
+    },
+    {
+      "id": 37,
+      "start": 246.81,
+      "end": 255.45,
+      "english": "Sleep doesn't just simply strengthen individual memories, sleep will actually cleverly interconnect new memories together.",
+      "chinese": ""
+    },
+    {
+      "id": 38,
+      "start": 255.75,
+      "end": 269.37,
+      "english": "And as a consequence, you can wake up the next day with a revised mind-wide web of associations, we can come up with solutions to previously impenetrable problems.",
+      "chinese": ""
+    },
+    {
+      "id": 39,
+      "start": 269.53,
+      "end": 275.11,
+      "english": "And this is probably the reason that you've never been told to stay awake on a problem.",
+      "chinese": ""
+    },
+    {
+      "id": 40,
+      "start": 275.67,
+      "end": 282.18,
+      "english": "Instead, you're told to sleep on a problem, and that's exactly what the science teaching us.",
+      "chinese": ""
+    }
+  ]
+}

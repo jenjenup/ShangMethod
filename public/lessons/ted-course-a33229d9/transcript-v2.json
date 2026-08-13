@@ -1,0 +1,256 @@
+{
+  "id": "ted-course-a33229d9",
+  "title": "高海拔如何影响你的身体",
+  "durationSeconds": 296.176,
+  "durationCategory": "10分钟内",
+  "summary": "TED演讲《高海拔如何影响你的身体》的中英文精听材料。",
+  "audio": "/lessons/ted-course-a33229d9/audio.mp3",
+  "translation": "一个人如果从海平面瞬移到珠穆朗玛峰顶上, 其身体情况会迅速恶化。在 8848 米的海拔高度上, 大气压只有海平面高度的三分之一, 这意味着空气中的氧气极度稀少, 而这个可怜的人在几分钟内就会窒息。但是,那些花一个月攀登到山顶的人却能够在山顶上存活好几个小时。所以,在这短短的一个月当中我们的身体究竟发生了什么, 让我们能够忍受这高得不可思议的海拔?\n\n假设你是住在海平面 500 米以内的那 58 亿人中的一个。在这个海拔高度深吸一又气, 由多种气体和化合物组成的空气就会充满你的肺, 其中最重要的就是氧分子, 氧分子与红细胞中的血红蛋白结合, 这样一来,当血液在体内循环, 至关重要的氧气就会抵达所有细胞。但当海拔升高, 空气也随之变得稀薄。\n\n空气中每种化合物的相对含量并不会随着海拔升高而改变。但总的来说, 供身体吸收的氧分子越来越少。当你爬升到 2500 米以上的海拔时, 随之而来的缺氧会造成一种高海拔疾病, 即“AMS” (急性高山症), 通常表现为头疼、疲乏、恶心。\n\n幸运的是,急性高山症只会在海拔上升过快时发生, 因为人体针对高海拔有无数的应对机制。如果在几分钟甚至几秒钟内到达 1500米以上的海拔, 脖子里的颈动脉化学感受器就会察觉到血液氧气压力过低, 触发生理反应, 使呼吸更快更用力, 从而弥补氧气的缺乏。同时心率也会加快, 心脏会更加用力地收缩 , 在每次跳动时带动更多的血液, 让充了氧的血液在人体里更快速地运转。\n\n这些变化的发生相对较快, 而且如果你还在继续爬升, 你的心跳和呼吸都会相应地加快。但如果你在这个海拔停留上几个星期 , 你可能会因为长期适应而获得一些好处。\n\n在 1500 米以上停留的最开始几天 , 人体血液内血浆的含量会减少,引起血红蛋白浓度的增加。接下来的两个星期里血红蛋白水平会持续增长 , 使得每毫升血液能够运输更多的氧气, 再加上高心率 , 这种新的高血红蛋白血液高效地将氧气运送到人体各处 , 从而使每次心跳带动的血液回到正常水平。同时,你的呼吸也会继续加快, 这种过程被称为“通气习服”。\n\n这种适应过程持续几个星期之后 , 你的身体就做好足够的准备能够继续向上爬了。但是,你在攀爬的过程中还需要花额外的时间适应环境。在继续向上爬之前人们常常暂时下山, 进行恢复。因为珠穆朗玛峰不止是一座高山, 它还是世界上最高的山。在 3 500 米以上的海拔你将承受巨大的压力, 大脑里的动脉和静脉都会膨胀以加快血液流速。但我们最小的血管 , 也就是毛细血管 , 仍然保持原状。增加的压力会使这些血管破裂 , 还会导致液体在大脑内积聚。\n\n肺部也会受到类似的威胁 , 肺部血管会在低氧环境下收缩进而破裂 ,使更多液体积聚。这两种情况分别被称为 H A CE 和 H A PE ,它们非常罕见 , 但如果不及时处理可能会危及生命。一些中国西藏和南美地区的人, 其祖先生活在高海拔地区 , 所以本身就能抵抗一些轻型的高海拔症状。但即使是这些人, 也可能遭遇严重状况。\n\n虽然风险巨大, 但在过去的一个世纪里, 登山者们已经证明 , 人类能比科学家预测的爬得更高, 这些登山者不断挑战身体极限 , 重新定义了人类对环境的适应能力。",
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 11.13,
+      "english": "If someone teleported from sea level to the top of Mt.",
+      "chinese": ""
+    },
+    {
+      "id": 2,
+      "start": 11.17,
+      "end": 14.15,
+      "english": "Everest, things would go bad fast.",
+      "chinese": ""
+    },
+    {
+      "id": 3,
+      "start": 14.49,
+      "end": 23.47,
+      "english": "At an altitude of 8,848 meters, barometric pressure is approximately 33% of what it is at sea level.",
+      "chinese": ""
+    },
+    {
+      "id": 4,
+      "start": 23.85,
+      "end": 31.89,
+      "english": "This means there's significantly less oxygen in the air, and our teleported individual would likely suffocate in minutes.",
+      "chinese": ""
+    },
+    {
+      "id": 5,
+      "start": 32.05,
+      "end": 40.41,
+      "english": "However, for people that make this same journey over the course of a month, it's possible to survive at the peak for hours.",
+      "chinese": ""
+    },
+    {
+      "id": 6,
+      "start": 40.99,
+      "end": 47.43,
+      "english": "So what can happen to our bodies in just one month that allows us to endure this incredible altitude?",
+      "chinese": ""
+    },
+    {
+      "id": 7,
+      "start": 48.11,
+      "end": 55.03,
+      "english": "Let’s imagine you’re one of the 5.8 billion people living less than 500 meters above sea level.",
+      "chinese": ""
+    },
+    {
+      "id": 8,
+      "start": 55.86,
+      "end": 62.4,
+      "english": "When you take a breath at this altitude, your lungs fill up with air composed of numerous gases and compounds.",
+      "chinese": ""
+    },
+    {
+      "id": 9,
+      "start": 62.4,
+      "end": 69.4,
+      "english": "Most important among these are oxygen molecules, which bind to the hemoglobin in your red blood cells.",
+      "chinese": ""
+    },
+    {
+      "id": 10,
+      "start": 69.98,
+      "end": 74.7,
+      "english": "Blood then circulates throughout your body, bringing essential oxygen to all your cells.",
+      "chinese": ""
+    },
+    {
+      "id": 11,
+      "start": 74.92,
+      "end": 79.32,
+      "english": "But as altitude increases, the air starts to get thinner.",
+      "chinese": ""
+    },
+    {
+      "id": 12,
+      "start": 79.64,
+      "end": 88.64,
+      "english": "The relative amounts of each compound remain the same well into the upper atmosphere, but overall, there is less oxygen for our bodies to absorb.",
+      "chinese": ""
+    },
+    {
+      "id": 13,
+      "start": 88.64,
+      "end": 105.24,
+      "english": "And if you ascend to altitudes above 2,500 meters, the resulting oxygen deprivation can cause a form of altitude sickness known as AMS, often causing headaches, fatigue and nausea.",
+      "chinese": ""
+    },
+    {
+      "id": 14,
+      "start": 105.96,
+      "end": 115.38,
+      "english": "Fortunately, AMS only happens when we ascend too fast, because our bodies have numerous ways of adapting to high altitudes.",
+      "chinese": ""
+    },
+    {
+      "id": 15,
+      "start": 115.42,
+      "end": 126.98,
+      "english": "Within minutes or even seconds of reaching altitudes of 1,500 meters, carotid chemoreceptors in your neck sense your blood’s low oxygen pressure.",
+      "chinese": ""
+    },
+    {
+      "id": 16,
+      "start": 127.14,
+      "end": 134.0,
+      "english": "This triggers a response that increases the rate and depth of your breathing to counteract the lack of oxygen.",
+      "chinese": ""
+    },
+    {
+      "id": 17,
+      "start": 134.52,
+      "end": 145.28,
+      "english": "Your heart rate also increases and your heart contracts more tightly to pump additional blood with each beat, quickly moving oxygenated blood around your body.",
+      "chinese": ""
+    },
+    {
+      "id": 18,
+      "start": 145.98,
+      "end": 153.94,
+      "english": "All these changes happen relatively fast, and if you were to keep ascending, your heart rate and breathing would speed up accordingly.",
+      "chinese": ""
+    },
+    {
+      "id": 19,
+      "start": 154.71,
+      "end": 161.39,
+      "english": "But if you stayed at this altitude for several weeks, you could reap the benefits of some longer-term adaptations.",
+      "chinese": ""
+    },
+    {
+      "id": 20,
+      "start": 162.27,
+      "end": 173.17,
+      "english": "Within the first few days above 1,500 meters, the volume of plasma in your blood decreases, which increases the concentration of hemoglobin.",
+      "chinese": ""
+    },
+    {
+      "id": 21,
+      "start": 173.5,
+      "end": 181.96,
+      "english": "Over the next two weeks, your hemoglobin levels will continue to rise, allowing your blood to carry even more oxygen per milliliter.",
+      "chinese": ""
+    },
+    {
+      "id": 22,
+      "start": 182.37,
+      "end": 189.23,
+      "english": "Paired with your high heart rate, this new hemoglobin-rich blood efficiently distributes oxygen throughout your body.",
+      "chinese": ""
+    },
+    {
+      "id": 23,
+      "start": 189.37,
+      "end": 195.53,
+      "english": "So much so that the volume of blood being pumped with each heartbeat can return to normal levels.",
+      "chinese": ""
+    },
+    {
+      "id": 24,
+      "start": 195.53,
+      "end": 203.51,
+      "english": "Over this same time, your breathing also increases even further in a process called ventilatory acclimatization.",
+      "chinese": ""
+    },
+    {
+      "id": 25,
+      "start": 204.05,
+      "end": 211.33,
+      "english": "After this several weeks of extended acclimatization, your body has made enough significant changes to climb even higher.",
+      "chinese": ""
+    },
+    {
+      "id": 26,
+      "start": 211.63,
+      "end": 220.59,
+      "english": "However, you’ll still have to spend additional time acclimating along the way, often climbing back down to recover before ascending even higher.",
+      "chinese": ""
+    },
+    {
+      "id": 27,
+      "start": 220.59,
+      "end": 225.69,
+      "english": "Because the summit of Everest isn't just high, it’s the highest place on Earth.",
+      "chinese": ""
+    },
+    {
+      "id": 28,
+      "start": 225.95,
+      "end": 231.87,
+      "english": "And at altitudes above 3,500 meters, our bodies are under incredible stress.",
+      "chinese": ""
+    },
+    {
+      "id": 29,
+      "start": 232.4,
+      "end": 240.58,
+      "english": "Arteries and veins in the brain dilate to speed up blood flow, But our smallest blood vessels, called capillaries, remain the same size.",
+      "chinese": ""
+    },
+    {
+      "id": 30,
+      "start": 240.9,
+      "end": 246.84,
+      "english": "This increased pressure can cause blood vessels to leak, and fluid to build up in the brain.",
+      "chinese": ""
+    },
+    {
+      "id": 31,
+      "start": 246.84,
+      "end": 256.68,
+      "english": "A similar issue can occur in the lungs, where low oxygen causes blood vessels to constrict, leading to more leaking vessels and fluid buildup.",
+      "chinese": ""
+    },
+    {
+      "id": 32,
+      "start": 256.86,
+      "end": 265.48,
+      "english": "These two conditions— known as HACE and HAPE, respectively— are incredibly rare, but can be life-threatening if not dealt with quickly.",
+      "chinese": ""
+    },
+    {
+      "id": 33,
+      "start": 266.02,
+      "end": 278.28,
+      "english": "Some Tibetans and South Americans with family histories of living at high altitude have genetic advantages that can prevent minor altitude sickness, but even they aren’t immune to these severe conditions.",
+      "chinese": ""
+    },
+    {
+      "id": 34,
+      "start": 279.06,
+      "end": 287.24,
+      "english": "Yet despite these risks, climbers over the last century have proved people can go higher than scientists ever thought possible.",
+      "chinese": ""
+    },
+    {
+      "id": 35,
+      "start": 287.64,
+      "end": 294.36,
+      "english": "Pushing past their body’s limitations, these climbers have redefined what humanity can adapt to.",
+      "chinese": ""
+    }
+  ]
+}

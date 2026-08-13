@@ -1,0 +1,235 @@
+{
+  "id": "ted-keep-goals-secret-001",
+  "title": "不要公开你的个人目标",
+  "durationSeconds": 192.47,
+  "durationCategory": "10分钟内",
+  "summary": "TED演讲《不要公开你的个人目标》的中英文精听材料。",
+  "audio": "/lessons/ted-keep-goals-secret-001/audio.mp3",
+  "translation": "请大家想想你们最大的人生目标。实际的人生目标。你得想一会儿。你有感觉知道你的目标。花几秒钟想想人生最大的目标,好么? 想象一下,立马做出决定你将要做的事情。想象一下,告诉你今天遇到的人你将要做什么想象他们的祝贺和你在他们眼中的英伟形象。大声说出来是不是十分爽? 你是不是觉得更进一步了貌似这已经成为你自己的一部分?\n\n嗯,坏消息:你最好闭嘴, 因为你的自我感觉良好, 在现实中反而使你不太容易实现目标。许多心理测试已证明告诉别人你的目标反而使目标不能实现。任何时候在你有个目标时, 你得按计划做些工作来实现这个目标。\n\n理想状况下,除非你实际地做些工作,你才会满足, 但是当你告诉别人你的目标,大家也承认你的目标, 心理学家发现,这被称为一种社会现实。思维定势让你有种感觉到你的目标已经达到。然后,因为你感到满足感, 你不那么积极地做实际需要的艰苦工\n\n这观点和传统观点背道而驰, 我们应该告诉我们朋友们关于我们的目标吗,对吗? 他们鼓励我们实现目标,对。我们来看看这个证明。 1926年,社会心理学的创始人库尔特·勒温称这个为“替代”。1933年,伟拉马勒发现当你的目标被别人承认,在你脑子里就好比这已经实现了。 1982年,皮特哥尔维策尔关于此写了一本书, 在2009年, 他公布了一些新的实验证明。\n\n比如这个: 163个人进行4组不同测试-- 每个人写下他们各自的目标, 然后一半实验的人在房间里宣布他们的目标承诺, 另一半人保守目标。接下来每个人有4 5 分钟来工作, 他们可以努力工作直至实现他们的目标, 但他们在任何时候也可以停下来工作。那些不泄漏目标的人平均工作了整整 4 5 分钟, 在这之后的访问 , 他们感到他们为了实现目标还有很长的一段路要走。但是那些宣布目标的人们平均工作大约 33分钟后就放弃了, 当被问及时, 他们感到快要接近目标了。\n\n所以如果这是事实, 我们会怎样做? 好吧 ,大家可以抵制住宣布目标的诱惑。大家可以延迟这种社交承认带来的满足。大家明白脑子会把说的当成做的来替代。\n\n但是如果你的确要谈论一些目标, 你说到这些目标时不带有任何满足感, 例如,“我的确想要跑马拉松 , 所以我需要每周训练5次 ,果我做不到,就踢我的屁股吧 ?”所以观众们,下一次当你试图告诉别人你的目标时, 你会说什么? 完全正确 ,做对了。 ( 对你的目标缄默 ,闭住嘴。保守秘密。 )",
+  "sentences": [
+    {
+      "id": 1,
+      "start": 12.95,
+      "end": 15.99,
+      "english": "Everyone, please think of your biggest personal goal.",
+      "chinese": ""
+    },
+    {
+      "id": 2,
+      "start": 17.01,
+      "end": 18.37,
+      "english": "For real -- you can take a second.",
+      "chinese": ""
+    },
+    {
+      "id": 3,
+      "start": 18.37,
+      "end": 19.47,
+      "english": "You've got to feel this to learn it.",
+      "chinese": ""
+    },
+    {
+      "id": 4,
+      "start": 19.47,
+      "end": 23.11,
+      "english": "Take a few seconds and think of your personal biggest goal, okay?",
+      "chinese": ""
+    },
+    {
+      "id": 5,
+      "start": 23.58,
+      "end": 26.5,
+      "english": "Imagine deciding right now that you're going to do it.",
+      "chinese": ""
+    },
+    {
+      "id": 6,
+      "start": 26.5,
+      "end": 29.76,
+      "english": "Imagine telling someone that you meet today what you're going to do.",
+      "chinese": ""
+    },
+    {
+      "id": 7,
+      "start": 29.76,
+      "end": 33.64,
+      "english": "Imagine their congratulations, and their high image of you.",
+      "chinese": ""
+    },
+    {
+      "id": 8,
+      "start": 33.64,
+      "end": 35.92,
+      "english": "Doesn't it feel good to say it out loud?",
+      "chinese": ""
+    },
+    {
+      "id": 9,
+      "start": 35.92,
+      "end": 40.64,
+      "english": "Don't you feel one step closer already, like it's already becoming part of your identity?",
+      "chinese": ""
+    },
+    {
+      "id": 10,
+      "start": 41.82,
+      "end": 48.78,
+      "english": "Well, bad news: you should have kept your mouth shut, because that good feeling now will make you less likely to do it.",
+      "chinese": ""
+    },
+    {
+      "id": 11,
+      "start": 48.98,
+      "end": 55.0,
+      "english": "The repeated psychology tests have proven that telling someone your goal makes it less likely to happen.",
+      "chinese": ""
+    },
+    {
+      "id": 12,
+      "start": 55.51,
+      "end": 60.965,
+      "english": "Any time you have a goal, there are some steps that need to be done, some work that needs to be done in order to achieve it.",
+      "chinese": ""
+    },
+    {
+      "id": 13,
+      "start": 60.965,
+      "end": 64.26,
+      "english": "Ideally you would not be satisfied until you'd actually done the work.",
+      "chinese": ""
+    },
+    {
+      "id": 14,
+      "start": 64.26,
+      "end": 73.08,
+      "english": "But when you tell someone your goal and they acknowledge it, psychologists have found that it's called a \"social reality.\"The mind is kind of tricked into feeling that it's already done.",
+      "chinese": ""
+    },
+    {
+      "id": 15,
+      "start": 73.08,
+      "end": 79.4,
+      "english": "And then because you've felt that satisfaction, you're less motivated to do the actual hard work necessary.",
+      "chinese": ""
+    },
+    {
+      "id": 16,
+      "start": 80.46,
+      "end": 85.0,
+      "english": "So this goes against conventional wisdom that we should tell our friends our goals, right?",
+      "chinese": ""
+    },
+    {
+      "id": 17,
+      "start": 85.0,
+      "end": 87.24,
+      "english": "So they hold us to it.",
+      "chinese": ""
+    },
+    {
+      "id": 18,
+      "start": 87.28,
+      "end": 89.74,
+      "english": "So, let's look at the proof.",
+      "chinese": ""
+    },
+    {
+      "id": 19,
+      "start": 90.16,
+      "end": 99.16,
+      "english": "1926: Kurt Lewin, founder of social psychology, called this \"substitution.\"1933: Wera Mahler found when it was acknowledged by others, it felt real in the mind.",
+      "chinese": ""
+    },
+    {
+      "id": 20,
+      "start": 99.56,
+      "end": 105.7,
+      "english": "1982, Peter Gollwitzer wrote a whole book about this, and in 2009, he did some new tests that were published.",
+      "chinese": ""
+    },
+    {
+      "id": 21,
+      "start": 105.7,
+      "end": 110.69,
+      "english": "It goes like this: 163 people across four separate tests.",
+      "chinese": ""
+    },
+    {
+      "id": 22,
+      "start": 111.11,
+      "end": 113.15,
+      "english": "Everyone wrote down their personal goal.",
+      "chinese": ""
+    },
+    {
+      "id": 23,
+      "start": 113.15,
+      "end": 118.87,
+      "english": "Then half of them announced their commitment to this goal to the room, and half didn't.",
+      "chinese": ""
+    },
+    {
+      "id": 24,
+      "start": 119.66,
+      "end": 125.6,
+      "english": "Then everyone was given 45 minutes of work that would directly lead them towards their goal, but they were told that they could stop at any time.",
+      "chinese": ""
+    },
+    {
+      "id": 25,
+      "start": 125.6,
+      "end": 135.81,
+      "english": "Now, those who kept their mouths shut worked the entire 45 minutes on average, and when asked afterward, said that they felt that they had a long way to go still to achieve their goal.",
+      "chinese": ""
+    },
+    {
+      "id": 26,
+      "start": 135.81,
+      "end": 144.99,
+      "english": "But those who had announced it quit after only 33 minutes, on average, and when asked afterward, said that they felt much closer to achieving their goal.",
+      "chinese": ""
+    },
+    {
+      "id": 27,
+      "start": 145.11,
+      "end": 147.85,
+      "english": "So if this is true, what can we do?",
+      "chinese": ""
+    },
+    {
+      "id": 28,
+      "start": 148.48,
+      "end": 152.08,
+      "english": "Well, you could resist the temptation to announce your goal.",
+      "chinese": ""
+    },
+    {
+      "id": 29,
+      "start": 152.08,
+      "end": 160.83,
+      "english": "You can delay the gratification that the social acknowledgment brings, and you can understand that your mind mistakes the talking for the doing.",
+      "chinese": ""
+    },
+    {
+      "id": 30,
+      "start": 160.83,
+      "end": 178.71,
+      "english": "But if you do need to talk about something, you can state it in a way that gives you no satisfaction, such as, \"I really want to run this marathon, so I need to train five times a week and kick my ass if I don't, okay?\"So audience, next time you're tempted to tell someone your goal, what will you say?",
+      "chinese": ""
+    },
+    {
+      "id": 31,
+      "start": 179.65,
+      "end": 180.25,
+      "english": "Exactly!",
+      "chinese": ""
+    },
+    {
+      "id": 32,
+      "start": 180.25,
+      "end": 181.15,
+      "english": "Well done.",
+      "chinese": ""
+    }
+  ]
+}

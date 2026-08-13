@@ -1,0 +1,242 @@
+{
+  "id": "ted-course-314b2a63",
+  "title": "求求你别再熬夜了",
+  "durationSeconds": 274.86,
+  "durationCategory": "10分钟内",
+  "summary": "TED演讲《求求你别再熬夜了》的中英文精听材料。",
+  "audio": "/lessons/ted-course-314b2a63/audio.mp3",
+  "translation": "在1965年, 17岁的高中学生Randy Gardner 维持了264小时的清醒状态。累计11天,来看看他是怎么保持清醒的。第二天,他的眼睛已经无法聚焦了, 然后,他失去了依靠触摸来辨别物体的能力。第三天,Gardner变得喜怒无常, 动作也无法协调。在实验结束的时候, 保持专注对他来说十分艰难短期记忆出现了问题变的易怒, 而且出现了幻觉。尽管Gardner痊愈了, 没有长期的生理或心理的后遗症, 对于其他人来说失去睡眠可以导致荷尔蒙失衡, 生病, 在极端情况下,死\n\n我们刚刚才开始明白我们为什么要睡觉, 但是我们知道睡眠是至关重要的。成人每晚需要7到8小时的睡眠, 青少年大概需要10小时。我们变困是因为身体发出暗示告诉我们的大脑,“我们累了”环境中的信号告诉我们,外面天黑了。\n\n嗜睡化学成分的上升, 比如腺苷和褪黑素, 使我们进入浅睡眠,并越睡越深, 使我们的呼吸和心跳变缓, 肌肉变放松。 DNA在这段非快速眼动睡眠期被修复, 我们的身体也补充能量以准备迎接新的一天。\n\n在美国 , 大概 3 0 % 的成人和66 % 的青少年经常缺少睡眠。这并不只是个小小的不便长期保持清醒会对身体产生巨大的伤害。当我们失去睡眠的时候学习 , 记忆情绪和反应时间会受到影响。失眠还可能会导致发炎幻觉, 高血压 , 甚至和高血糖和肥胖产生联系。\n\n在2014年 , 一个铁杆球迷因为连续 48小时观看世界杯而死亡。虽然他是因为中风而“英年早逝”, 研究表明,长期维持每日少于六小时的睡眠, 相对于那些保持每晚7到8小时睡眠的人来说增加了4 . 5 倍的中风风\n\n对于那些世上少数的, 通过遗传得到基因异变的人来说, 失眠是家常便饭这种症状,被称为致死性家族失眠症 (F a t a l F a mili a l I n som n i a )将身体置于一种噩梦般的清醒状态防止患者进入睡眠这个庇护所。在几个月到几年内 , 这种逐渐恶化到病情会导致痴呆和死亡。\n\n失眠是如何导致如此严重的痛苦的 ? 科学家们认为答案是代谢物在大脑中的累积。\n\n在清醒的时候, 我们的细胞紧张的消耗一天的能量 , 分解成各种副产品 , 包括腺苷。当腺苷累积起来的时候, 它增加了困倦感 , 也就是睡眠压力。事实上, 咖啡因是靠阻断接受腺苷的感知器官来实现其作用的。其他的代谢物也会积聚于大脑, 如果不清理出去, 它们会导致大脑和思想超负荷运转 , 并导致各种失眠症状。\n\n那我们睡觉的时候 , 大脑是如何防止这些发生的呢? 科学家们发现了一种叫gl y mph a tic s y st e m 的脑部淋巴系统 , 一种能清除这些积聚物的清扫系统 , 当我们睡觉的时候,这个系统更加活跃。它利用脑脊液来清除在细胞之间的有毒物质。淋巴管,为免疫细胞提供路径的血管最近被发现存在于大脑中, 淋巴管也可能在清除大脑日常代谢物中扮演了重要的角色。\n\n虽然科学家们还在继续探索关于睡眠的修复机制 , 我们可以肯定 ,想要保持健和理智 , 打瞌睡是必需的 !",
+  "sentences": [
+    {
+      "id": 1,
+      "start": 7.48,
+      "end": 15.54,
+      "english": "In 1965, 17-year-old high school student, Randy Gardner stayed awake for 264 hours.",
+      "chinese": ""
+    },
+    {
+      "id": 2,
+      "start": 15.94,
+      "end": 19.64,
+      "english": "That's 11 days to see how he'd cope without sleep.",
+      "chinese": ""
+    },
+    {
+      "id": 3,
+      "start": 20.2,
+      "end": 22.74,
+      "english": "On the second day, his eyes stopped focusing.",
+      "chinese": ""
+    },
+    {
+      "id": 4,
+      "start": 23.39,
+      "end": 26.93,
+      "english": "Next, he lost the ability to identify objects by touch.",
+      "chinese": ""
+    },
+    {
+      "id": 5,
+      "start": 27.33,
+      "end": 30.43,
+      "english": "By day three, Gardner was moody and uncoordinated.",
+      "chinese": ""
+    },
+    {
+      "id": 6,
+      "start": 30.81,
+      "end": 38.35,
+      "english": "At the end of the experiment, he was struggling to concentrate, had trouble with short-term memory, became paranoid, and started hallucinating.",
+      "chinese": ""
+    },
+    {
+      "id": 7,
+      "start": 38.71,
+      "end": 50.27,
+      "english": "Although Gardner recovered without long-term psychological or physical damage, for others, losing shuteye can result in hormonal imbalance, illness, and, in extreme cases, death.",
+      "chinese": ""
+    },
+    {
+      "id": 8,
+      "start": 50.95,
+      "end": 56.55,
+      "english": "We're only beginning to understand why we sleep to begin with, but we do know it's essential.",
+      "chinese": ""
+    },
+    {
+      "id": 9,
+      "start": 56.85,
+      "end": 61.65,
+      "english": "Adults need seven to eight hours of sleep a night, and adolescents need about ten.",
+      "chinese": ""
+    },
+    {
+      "id": 10,
+      "start": 62.26,
+      "end": 70.1,
+      "english": "We grow sleepy due to signals from our body telling our brain we are tired, and signals from the environment telling us it's dark outside.",
+      "chinese": ""
+    },
+    {
+      "id": 11,
+      "start": 70.9,
+      "end": 82.46,
+      "english": "The rise in sleep-inducing chemicals, like adenosine and melatonin, send us into a light doze that grows deeper, making our breathing and heart rate slow down and our muscles relax.",
+      "chinese": ""
+    },
+    {
+      "id": 12,
+      "start": 83.63,
+      "end": 89.93,
+      "english": "This non-REM sleep is when DNA is repaired and our bodies replenish themselves for the day ahead.",
+      "chinese": ""
+    },
+    {
+      "id": 13,
+      "start": 90.86,
+      "end": 98.88,
+      "english": "In the United States, it's estimated that 30% of adults and 66% of adolescents are regularly sleep-deprived.",
+      "chinese": ""
+    },
+    {
+      "id": 14,
+      "start": 99.19,
+      "end": 101.39,
+      "english": "This isn't just a minor inconvenience.",
+      "chinese": ""
+    },
+    {
+      "id": 15,
+      "start": 101.65,
+      "end": 104.57,
+      "english": "Staying awake can cause serious bodily harm.",
+      "chinese": ""
+    },
+    {
+      "id": 16,
+      "start": 104.91,
+      "end": 110.37,
+      "english": "When we lose sleep, learning, memory, mood, and reaction time are affected.",
+      "chinese": ""
+    },
+    {
+      "id": 17,
+      "start": 110.73,
+      "end": 119.07,
+      "english": "Sleeplessness may also cause inflammation, hallucinations, high blood pressure, and it's even been linked to diabetes and obesity.",
+      "chinese": ""
+    },
+    {
+      "id": 18,
+      "start": 119.07,
+      "end": 127.84,
+      "english": "In 2014, a devoted soccer fan died after staying awake for 48 hours to watch the World Cup.",
+      "chinese": ""
+    },
+    {
+      "id": 19,
+      "start": 128.37,
+      "end": 142.45,
+      "english": "While his untimely death was due to a stroke, studies show that chronically sleeping fewer than six hours a night increases stroke risk by four and half times compared to those getting a consistent seven to eight hours of shuteye.",
+      "chinese": ""
+    },
+    {
+      "id": 20,
+      "start": 142.93,
+      "end": 150.01,
+      "english": "For a handful of people on the planet who carry a rare inherited genetic mutation, sleeplessness is a daily reality.",
+      "chinese": ""
+    },
+    {
+      "id": 21,
+      "start": 150.45,
+      "end": 160.59,
+      "english": "This condition, known as Fatal Familial Insomnia, places the body in a nightmarish state of wakefulness, forbidding it from entering the sanctuary of sleep.",
+      "chinese": ""
+    },
+    {
+      "id": 22,
+      "start": 161.21,
+      "end": 167.01,
+      "english": "Within months or years, this progressively worsening condition leads to dementia and death.",
+      "chinese": ""
+    },
+    {
+      "id": 23,
+      "start": 168.01,
+      "end": 171.07,
+      "english": "How can sleep deprivation cause such immense suffering?",
+      "chinese": ""
+    },
+    {
+      "id": 24,
+      "start": 171.47,
+      "end": 176.39,
+      "english": "Scientists think the answer lies with the accumulation of waste prducts in the brain.",
+      "chinese": ""
+    },
+    {
+      "id": 25,
+      "start": 176.39,
+      "end": 186.21,
+      "english": "During our waking hours, our cells are busy using up our day's energy sources, which get broken down into various byproducts, including adenosine.",
+      "chinese": ""
+    },
+    {
+      "id": 26,
+      "start": 186.59,
+      "end": 192.55,
+      "english": "As adenosine builds up, it increases the urge to sleep, also known as sleep pressure.",
+      "chinese": ""
+    },
+    {
+      "id": 27,
+      "start": 193.18,
+      "end": 197.52,
+      "english": "In fact, caffeine works by blocking adenosine's receptor pathways.",
+      "chinese": ""
+    },
+    {
+      "id": 28,
+      "start": 198.26,
+      "end": 209.04,
+      "english": "Other waste products also build up in the brain, and if they're not cleared away, they collectively overload the brain and are thought to lead to the many negative symptoms of sleep deprivation.",
+      "chinese": ""
+    },
+    {
+      "id": 29,
+      "start": 210.07,
+      "end": 213.69,
+      "english": "So, what's happening in our brain when we sleep to prevent this?",
+      "chinese": ""
+    },
+    {
+      "id": 30,
+      "start": 214.05,
+      "end": 222.92,
+      "english": "Scientists found something called the glymphatic system, a clean-up mechanism that removes this buildup and is much more active when we're asleep.",
+      "chinese": ""
+    },
+    {
+      "id": 31,
+      "start": 223.37,
+      "end": 230.57,
+      "english": "It works by using cerebrospinal fluid to flush away toxic byproducts that accumulate between cells.",
+      "chinese": ""
+    },
+    {
+      "id": 32,
+      "start": 231.23,
+      "end": 242.39,
+      "english": "Lymphatic vessels, which serve as pathways for immune cells, have recently been discovered in the brain, and they may also play a role in clearing out the brain's daily waste products.",
+      "chinese": ""
+    },
+    {
+      "id": 33,
+      "start": 244.24,
+      "end": 256.81,
+      "english": "While scientists continue exploring the restorative mechanisms behind sleep, we can be sure that slipping into slumber is a necessity if we want to maintain our health and our sanity.",
+      "chinese": ""
+    }
+  ]
+}

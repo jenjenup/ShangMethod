@@ -1,0 +1,242 @@
+{
+  "id": "ted-muscle-growth-001",
+  "title": "肌肉增长的秘密",
+  "durationSeconds": 259.788,
+  "durationCategory": "10分钟内",
+  "summary": "TED演讲《肌肉增长的秘密》的中英文精听材料。",
+  "audio": "/lessons/ted-muscle-growth-001/audio.mp3",
+  "translation": "肌肉,我们有超过600块,大约占了身体重量的三分之一到二分之一。它们和结缔组织一起组成我们的身体,使我们能够站立和移动,不管健身是不是你的兴趣爱好,肌肉需要你持续关注。因为你每天的锻炼情况会决定肌肉是萎缩还是增长。\n\n假想你正站在一扇门前,准备拉门你的大脑和肌肉会达成完美的平衡以帮助你达成目标。首先,你的大脑给遥控你手臂的神经发射信号,神经接受信号之后,开始行动引起肌肉收缩与放松牵引手臂的骨骼运动,从而做出相应的动作动作难度越大,大脑发出的信号越强,协助完成动作所调动的遥控神经单位越多。\n\n但是如果门是铁制的呢? 现在,光靠你手臂的肌肉是不能产生足够的拉力来开门的,所以你的大脑会让其他肌肉来帮忙。你扎好马步,收紧小腹,拉紧脊背, 产生足够的力把门扯开,你的神经系统刚刚借用了你所有的已有资源: 别的肌肉,来完成你的目标。\n\n当这一切发生时,你的肌肉纤维经历了细胞层面的变化。你拉伸细胞时,细胞经历了细微的损伤,在这里,是一件好事。作为回应,受损的细胞会释放出被称作细胞因子的炎性分子,激活了免疫系统以修复损伤这就是肌肉变大的魔法。对肌肉组织造成的损伤越大, 你身体的自我修复就会越多,损伤和修复的循环,最终使肌肉变大变结实,逐渐适应更大的需求。\n\n因为我们的身体已经适应了日常的活动, 这些就不能产生足够的压力,来促进新的肌肉生长了。所以,要长肌肉,要经过一个叫过度增长的过程 ,我们的细胞需要比它已经适应的更大的工作强度。事实上 ,如果你不持续的让肌肉锻炼起来, 它们会变小,这被称为肌肉萎缩。相反的,让肌肉承受更高的拉力, 特别是肌肉在伸展时,又被称作离心收缩, 为肌肉提供有效的生长条件。\n\n然而,肌肉生长还要更多条件, 没有所需的营养 ,激素 ,和休息 , 你的身體永远不能修复受损的肌肉组织。我们饮食中的蛋白质通过以氨基酸的形式 , 提供新组织的基础来维持细胞的质量,足量的蛋白质摄入 ,与自然产生的荷尔蒙一起, 比如胰岛素 , 比如生长因子和睾酮 ,协助组织的修复和生长。\n\n这个至关重要的修复过程主要发生在我们休息时, 尤其是晚上睡觉的时候。性别和年龄也会影响修复机制, 这就是为什么有更多睾酮的青壮年 , 在肌肉增长上更有优势。基因因素也会影响肌肉增长,有些人对肌肉损伤有更强大的免疫反应, 更容易修复和替换受损肌肉纤维,这都加大了肌肉增长的潜力。\n\n身体会对你的需求做出回应,如果你撕裂肌肉, 补充营养 , 休息然后重复,你就为肌肉变大变强壮创造了条件。肌肉增长和生活一个道理 : 有效的成长需要挑战和压力。",
+  "sentences": [
+    {
+      "id": 1,
+      "start": 6.58,
+      "end": 7.36,
+      "english": "Muscles.",
+      "chinese": ""
+    },
+    {
+      "id": 2,
+      "start": 7.56,
+      "end": 10.06,
+      "english": "We have over 600 of them.",
+      "chinese": ""
+    },
+    {
+      "id": 3,
+      "start": 10.3,
+      "end": 19.72,
+      "english": "They make up between 1/3 and 1/2 of our body weight, and along with connective tissue, they bind us together, hold us up, and help us move.",
+      "chinese": ""
+    },
+    {
+      "id": 4,
+      "start": 20.27,
+      "end": 30.37,
+      "english": "And whether or not body building is your hobby, muscles need your constant attention because the way you treat them on a daily basis determines whether they will wither or grow.",
+      "chinese": ""
+    },
+    {
+      "id": 5,
+      "start": 31.04,
+      "end": 38.6,
+      "english": "Say you're standing in front of a door, ready to pull it open.Your brain and muscles are perfectly poised to help you achieve this goal.",
+      "chinese": ""
+    },
+    {
+      "id": 6,
+      "start": 38.96,
+      "end": 43.08,
+      "english": "First, your brain sends a signal to motor neurons inside your arm.",
+      "chinese": ""
+    },
+    {
+      "id": 7,
+      "start": 43.28,
+      "end": 52.64,
+      "english": "When they receive this message, they fire, causing muscles to contract and relax, which pull on the bones in your arm and generate the needed movement.",
+      "chinese": ""
+    },
+    {
+      "id": 8,
+      "start": 53.19,
+      "end": 60.99,
+      "english": "The bigger the challenge becomes, the bigger the brain's signal grows, and the more motor units it rallies to help you achieve your task.",
+      "chinese": ""
+    },
+    {
+      "id": 9,
+      "start": 60.99,
+      "end": 64.25,
+      "english": "But what if the door is made of solid iron?",
+      "chinese": ""
+    },
+    {
+      "id": 10,
+      "start": 64.59,
+      "end": 73.29,
+      "english": "At this point, your arm muscles alone won't be able to generate enough tension to pull it open, so your brain appeals to other muscles for help.",
+      "chinese": ""
+    },
+    {
+      "id": 11,
+      "start": 73.73,
+      "end": 80.09,
+      "english": "You plant your feet, tighten your belly, and tense your back, generating enough force to yank it open.",
+      "chinese": ""
+    },
+    {
+      "id": 12,
+      "start": 80.53,
+      "end": 87.01,
+      "english": "Your nervous system has just leveraged the resources you already have, other muscles, to meet the demand.",
+      "chinese": ""
+    },
+    {
+      "id": 13,
+      "start": 87.01,
+      "end": 92.39,
+      "english": "While all this is happening, your muscle fibers undergo another kind of cellular change.",
+      "chinese": ""
+    },
+    {
+      "id": 14,
+      "start": 92.79,
+      "end": 99.87,
+      "english": "As you expose them to stress, they experience microscopic damage, which, in this context, is a good thing.",
+      "chinese": ""
+    },
+    {
+      "id": 15,
+      "start": 100.15,
+      "end": 109.15,
+      "english": "In response, the injured cells release inflammatory molecules called cytokines that activate the immune system to repair the injury.",
+      "chinese": ""
+    },
+    {
+      "id": 16,
+      "start": 109.85,
+      "end": 113.03,
+      "english": "This is when the muscle- building magic happens.",
+      "chinese": ""
+    },
+    {
+      "id": 17,
+      "start": 113.41,
+      "end": 118.59,
+      "english": "The greater the damage to the muscle tissue, the more your body will need to repair itself.",
+      "chinese": ""
+    },
+    {
+      "id": 18,
+      "start": 119.03,
+      "end": 127.31,
+      "english": "The resulting cycle of damage and repair eventually makes muscles bigger and stronger as they adapt to progressively greater demands.",
+      "chinese": ""
+    },
+    {
+      "id": 19,
+      "start": 128.16,
+      "end": 136.78,
+      "english": "Since our bodies have already adapted to most everyday activities, those generally don't produce enough stress to stimulate new muscle growth.",
+      "chinese": ""
+    },
+    {
+      "id": 20,
+      "start": 137.0,
+      "end": 144.78,
+      "english": "So, to build new muscle, a process called hypertrophy, our cells need to be exposed to higher workloads than they are used to.",
+      "chinese": ""
+    },
+    {
+      "id": 21,
+      "start": 144.78,
+      "end": 153.68,
+      "english": "In fact, if you don't continuously expose your muscles to some resistance, they will shrink, a process known as muscular atrophy.",
+      "chinese": ""
+    },
+    {
+      "id": 22,
+      "start": 154.19,
+      "end": 165.81,
+      "english": "In contrast, exposing the muscle to a high-degree of tension, especially while the muscle is lengthening, also called an eccentric contraction, generates effective conditions for new growth.",
+      "chinese": ""
+    },
+    {
+      "id": 23,
+      "start": 166.37,
+      "end": 170.03,
+      "english": "However, muscles rely on more than just activity to grow.",
+      "chinese": ""
+    },
+    {
+      "id": 24,
+      "start": 170.37,
+      "end": 176.47,
+      "english": "Without proper nutrition, hormones, and rest, your body would never be able to repair damaged muscle fibers.",
+      "chinese": ""
+    },
+    {
+      "id": 25,
+      "start": 176.87,
+      "end": 183.81,
+      "english": "Protein in our diet preserves muscle mass by providing the building blocks for new tissue in the form of amino acids.",
+      "chinese": ""
+    },
+    {
+      "id": 26,
+      "start": 184.27,
+      "end": 195.69,
+      "english": "Adequate protein intake, along with naturally occurring hormones, like insulin- like growth factor and testosterone, help shift the body into a state where tissue is repaired and grown.",
+      "chinese": ""
+    },
+    {
+      "id": 27,
+      "start": 196.09,
+      "end": 201.67,
+      "english": "This vital repair process mainly occurs when we're resting, especially at night while sleeping.",
+      "chinese": ""
+    },
+    {
+      "id": 28,
+      "start": 202.33,
+      "end": 210.05,
+      "english": "Gender and age affect this repair mechanism, which is why young men with more testosterone have a leg up in the muscle building game.",
+      "chinese": ""
+    },
+    {
+      "id": 29,
+      "start": 210.54,
+      "end": 214.4,
+      "english": "Genetic factors also play a role in one's ability to grow muscle.",
+      "chinese": ""
+    },
+    {
+      "id": 30,
+      "start": 214.9,
+      "end": 224.12,
+      "english": "Some people have more robust immune reactions to muscle damage, and are better able to repair and replace damaged muscle fibers, increasing their muscle-building potential.",
+      "chinese": ""
+    },
+    {
+      "id": 31,
+      "start": 224.69,
+      "end": 227.49,
+      "english": "The body responds to the demands you place on it.",
+      "chinese": ""
+    },
+    {
+      "id": 32,
+      "start": 227.49,
+      "end": 236.91,
+      "english": "If you tear your muscles up, eat right, rest and repeat, you'll create the conditions to make your muscles as big and strong as possible.",
+      "chinese": ""
+    },
+    {
+      "id": 33,
+      "start": 237.38,
+      "end": 243.08,
+      "english": "It is with muscles as it is with life: Meaningful growth requires challenge and stress.",
+      "chinese": ""
+    }
+  ]
+}
