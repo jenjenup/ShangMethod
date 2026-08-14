@@ -324,13 +324,25 @@ function speakWord(word: string) {
   window.speechSynthesis.speak(utterance);
 }
 
+const audioBaseUrl = (process.env.NEXT_PUBLIC_AUDIO_BASE_URL ?? "")
+  .trim()
+  .replace(/\/+$/, "");
+
+function resolveAudioUrl(audioUrl: string) {
+  if (!audioBaseUrl || /^(?:https?:)?\/\//i.test(audioUrl)) {
+    return audioUrl;
+  }
+
+  return `${audioBaseUrl}/${audioUrl.replace(/^\/+/, "")}`;
+}
+
 const lessonList = lessonListData as LessonListEntry[];
 const materials: Material[] = lessonList.map((lesson) => ({
   id: lesson.id,
   title: lesson.title,
   duration: lesson.durationCategory,
   description: lesson.summary,
-  audio: lesson.audio,
+  audio: resolveAudioUrl(lesson.audio),
 }));
 const loadedMaterials = new Map<string, Material>();
 
@@ -352,7 +364,7 @@ async function loadMaterial(materialId: string) {
     title: transcript.title,
     duration: transcript.durationCategory,
     description: transcript.summary,
-    audio: transcript.audio,
+    audio: resolveAudioUrl(transcript.audio),
     segments: transcript.sentences.map((sentence) => ({
       id: sentence.id,
       start: sentence.start,
