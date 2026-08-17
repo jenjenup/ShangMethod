@@ -1,6 +1,7 @@
 "use client";
 
 import { cloudbaseDb } from "./client";
+import { getTranscriptVersion } from "./transcript-version";
 
 const vocabularyStorageKey = "shangmethod:vocabulary";
 const uploadBatchSize = 200;
@@ -36,6 +37,7 @@ type VocabularyRow = {
   meaning: string | null;
   example: string | null;
   created_at: string;
+  transcript_version: number | null;
 };
 
 export function normalizeWord(word: string) {
@@ -96,6 +98,7 @@ export function readLocalVocabularyForSync(
               ? item.exampleSentence
               : null,
         created_at: normalizeTimestamp(item.createdAt ?? item.addedAt),
+        transcript_version: getTranscriptVersion(lessonId),
       });
     });
 
@@ -185,6 +188,7 @@ function toVocabularyRow(
     meaning: entry.meaning || null,
     example: entry.example || null,
     created_at: normalizeTimestamp(entry.createdAt),
+    transcript_version: getTranscriptVersion(entry.lessonId),
   };
 }
 

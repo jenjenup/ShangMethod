@@ -1,6 +1,7 @@
 "use client";
 
 import { cloudbaseDb } from "./client";
+import { getTranscriptVersion } from "./transcript-version";
 
 const dictationStoragePrefix = "shangmethod:dictation:";
 const uploadBatchSize = 200;
@@ -28,6 +29,7 @@ type DraftUploadRow = {
   user_id: string;
   lesson_id: string;
   content: string;
+  transcript_version: number | null;
 };
 
 export function readLocalDictationDrafts(): LocalDraft[] {
@@ -88,6 +90,7 @@ export async function prepareInitialDictationSync(userId: string) {
         user_id: safeUserId,
         lesson_id: draft.lessonId,
         content: draft.content,
+        transcript_version: getTranscriptVersion(draft.lessonId),
       });
       return;
     }
@@ -167,6 +170,7 @@ export async function syncDictationDraft(
       user_id: String(userId),
       lesson_id: lessonId,
       content,
+      transcript_version: getTranscriptVersion(lessonId),
     },
     { onConflict: "user_id,lesson_id" },
   );

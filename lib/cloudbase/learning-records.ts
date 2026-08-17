@@ -1,6 +1,7 @@
 "use client";
 
 import { cloudbaseDb } from "./client";
+import { getTranscriptVersion } from "./transcript-version";
 
 const learningRecordsStorageKey = "shangmethod:learning-records";
 const uploadBatchSize = 200;
@@ -31,6 +32,7 @@ export type LearningRecordRow = {
   last_studied_at: string | null;
   recitation_completed: boolean;
   proficiency: string | null;
+  transcript_version: number | null;
 };
 
 type CloudLearningRecord = Omit<LearningRecordRow, "user_id">;
@@ -71,6 +73,7 @@ export function readLocalLearningRecordsForSync(
         recitation_completed: item.recitationCompleted === true,
         proficiency:
           typeof item.proficiency === "string" ? item.proficiency : null,
+        transcript_version: getTranscriptVersion(lessonId),
       };
       const existing = recordsByLesson.get(lessonId);
       recordsByLesson.set(
@@ -111,6 +114,8 @@ export function mergeLearningRecords(
     recitation_completed:
       local.recitation_completed || cloud.recitation_completed,
     proficiency: latest.proficiency,
+    transcript_version:
+      local.transcript_version ?? cloud.transcript_version ?? null,
   };
 }
 
@@ -134,7 +139,7 @@ export async function importLocalLearningRecords(
   const cloudResult = await db
     .from("learning_records")
     .select(
-      "lesson_id,lesson_title,status,last_studied_at,recitation_completed,proficiency",
+      "lesson_id,lesson_title,status,last_studied_at,recitation_completed,proficiency,transcript_version",
     )
     .eq("user_id", safeUserId);
   if (cloudResult.error) throw cloudResult.error;
@@ -182,7 +187,7 @@ export async function syncLearningRecord(
   const cloudResult = await db
     .from("learning_records")
     .select(
-      "lesson_id,lesson_title,status,last_studied_at,recitation_completed,proficiency",
+      "lesson_id,lesson_title,status,last_studied_at,recitation_completed,proficiency,transcript_version",
     )
     .eq("user_id", safeUserId)
     .eq("lesson_id", record.lessonId)
@@ -211,6 +216,7 @@ function toLearningRecordRow(
     last_studied_at: normalizeTimestamp(record.lastStudiedAt),
     recitation_completed: record.recitationCompleted,
     proficiency: record.proficiency || null,
+    transcript_version: getTranscriptVersion(record.lessonId),
   };
 }
 
