@@ -1,13 +1,5 @@
 [
   {
-    "id": "voa-listening-001",
-    "title": "Improve Your Listening Skills By Transcribing",
-    "durationCategory": "10分钟内",
-    "summary": "通过听写训练提升英语听力能力，学习如何利用转录方法强化对英语声音和文本之间对应关系的理解。",
-    "audio": "/lessons/voa-listening-001/audio.mp3",
-    "transcript": "/lessons/voa-listening-001/transcript.json"
-  },
-  {
     "id": "ted-decluttering-001",
     "title": "学会断舍离",
     "durationCategory": "10分钟内",

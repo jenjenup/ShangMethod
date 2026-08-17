@@ -324,16 +324,15 @@ function speakWord(word: string) {
   window.speechSynthesis.speak(utterance);
 }
 
-const audioBaseUrl = (process.env.NEXT_PUBLIC_AUDIO_BASE_URL ?? "")
-  .trim()
-  .replace(/\/+$/, "");
+const publicAudioBaseUrl =
+  "https://shangmethod-poc-d7fuug6m5e37ad8d.api.tcloudbasegateway.com/v1/storages/object/public/shangmethod-audio";
 
 function resolveAudioUrl(audioUrl: string) {
-  if (!audioBaseUrl || /^(?:https?:)?\/\//i.test(audioUrl)) {
+  if (/^(?:https?:)?\/\//i.test(audioUrl)) {
     return audioUrl;
   }
 
-  return `${audioBaseUrl}/${audioUrl.replace(/^\/+/, "")}`;
+  return `${publicAudioBaseUrl}/${audioUrl.replace(/^\/+/, "")}`;
 }
 
 const lessonList = lessonListData as LessonListEntry[];

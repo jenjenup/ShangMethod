@@ -6,6 +6,8 @@ node_modules
 out
 coverage
 
+public/lessons/*/audio.mp3
+
 .env
 .env.local
 .env.*.local
